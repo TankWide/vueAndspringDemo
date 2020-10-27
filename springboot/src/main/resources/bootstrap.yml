@@ -1,0 +1,84 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: szacrm-manager-customer
+
+  #使用环境
+  profiles:
+    active: dev
+    # 配置中心
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      username: upop-config
+      password: S1oebaTzYWA3soky
+      discovery:
+        enabled: true
+        service-id: upop-config
+---
+spring:
+  profiles: dev
+
+asms:
+  url: http://192.168.1.139:8080/openapi/asmscrm
+
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://upop:upop@192.168.1.225:1025/eureka/
+
+---
+qXBao:
+  appkey: ada44bd0070711e6b8a865678b483fde
+
+---
+asmsApi:
+  ip:
+  travel: /openapi/b2g/Cl
+  grzx: /openapi/b2g/Grzx
+  Cl: /openapi/b2g/Cl
+---
+spring:
+  profiles: dev2test
+
+  asms:
+    url: http://192.168.1.139:8080/openapi/asmscrm
+
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://upop:upop@192.168.1.225:1025/eureka/
+
+---
+spring:
+  profiles: test
+
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://upop:upop@10.13.131.100:1025/eureka/
+
+---
+spring:
+  profiles: prod
+
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://upop:awIVZTBefS9CDphX@10.12.71.53:1025/eureka/,http://upop:awIVZTBefS9CDphX@10.12.71.82:1025/eureka/
