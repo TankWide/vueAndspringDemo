@@ -36,6 +36,51 @@ module.exports = {
       warnings: false,
       errors: true
     },
+    proxy: {
+      '/auth': { // 这里是公共部分，在调用接口时后面接不相同的部分，/api就相当于http://192.168.0.199:8926/api这一段
+        target: 'http://192.168.1.225:3000',
+        // target: 'http://192.168.1.14:9999/auth',   //这里写的是访问接口的域名和端口号
+        // target: 'http://192.168.1.218:9999/auth',
+        changeOrigin: true, // 必须加上这个才能跨域请求
+        pathRewrite: { // 重命名
+          '^/auth': ''
+        }
+      },
+      '/szacrm-manager-system': { // 这里是公共部分，在调用接口时后面接不相同的部分，/api就相当于http://192.168.0.199:8926/api这一段
+        target: 'http://localhost:8010',
+        // target: 'http://192.168.1.14:8304',   //这里写的是访问接口的域名和端口号
+        // target: 'http://192.168.1.218:8304',
+        changeOrigin: true, // 必须加上这个才能跨域请求
+        pathRewrite: { // 重命名
+          '^/szacrm-manager-system': ''
+        }
+      },
+      '/szacrm-manager-customer': { // 这里是公共部分，在调用接口时后面接不相同的部分，/api就相当于http://192.168.0.199:8926/api这一段
+        target: 'http://localhost:8080',
+        // target: 'http://192.168.1.14:8304',   //这里写的是访问接口的域名和端口号
+        // target: 'http://192.168.1.218:8304',
+        changeOrigin: true, // 必须加上这个才能跨域请求
+        pathRewrite: { // 重命名
+          '^/szacrm-manager-customer': ''
+        }
+      },
+      '/szacrm-web': { // 这里是公共部分，在调用接口时后面接不相同的部分，/api就相当于http://192.168.0.199:8926/api这一段
+        target: 'http://localhost:81', // 这里写的是访问接口的域名和端口号
+        changeOrigin: true, // 必须加上这个才能跨域请求
+        pathRewrite: { // 重命名
+          '^/szacrm-web': ''
+        }
+      },
+      // change xxx-api/login => mock/login
+      // detail: https://cli.vuejs.org/config/#devserver-proxy
+      [process.env.VUE_APP_BASE_API]: {
+        target: `http://localhost:${port}/mock`,
+        changeOrigin: true,
+        pathRewrite: {
+          ['^' + process.env.VUE_APP_BASE_API]: ''
+        }
+      }
+    },
     before: require('./mock/mock-server.js')
   },
   configureWebpack: {
