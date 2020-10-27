@@ -11,7 +11,7 @@ export function CClientManageSelect(data) {
     })
   } else {
     return request({
-      url: '/szacrm-manager-customer/CClientManage/CClientManageSelect',
+      url: '/szacrm-manager-customer/helloController/first',
       headers: {
         'Authorization': 'Bearer ' + store.getters.token
       },
