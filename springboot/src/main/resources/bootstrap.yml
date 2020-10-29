@@ -82,3 +82,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://upop:awIVZTBefS9CDphX@10.12.71.53:1025/eureka/,http://upop:awIVZTBefS9CDphX@10.12.71.82:1025/eureka/
+
+      mybatis:
+      mapper-locations: classpath:mapper/*_mapper.xml
+      type-aliases-package: com.util.model

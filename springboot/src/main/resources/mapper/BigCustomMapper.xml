@@ -2,134 +2,18 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demo.dao.BigCustomMapper">
 
-    <select id="pagination" resultMap="String">
+    <select id="pagination" resultType="com.example.demo.dao.entity.DiaryEntity">
         SELECT
-        ci.ID,
-        ci.CUSTOMER_NO,
-        ci.CUSTOMER_NAME,
-        NVL(ci.SETWAY, ci.NEW_SETWAY) AS SETWAY,
-        NVL(ci.GUARANTEE_WAY, ci.NEW_GUARANTEE_WAY) AS GUARANTEE_WAY,
-        ci.NEW_SETWAY,
-        ci.NEW_GUARANTEE_WAY,
-        ci.COOPERATION_WAY,
-        ci.COOPERATION_MODE,
-        ci.ADDRESS_ID,
-        ci.REGION,
-        ci.AWARD_WAY_DOMESTIC,
-        ci.AWARD_WAY_ABROAD,
-        ci.MANAGE_ID,
-        ci.MOBILE,
-        ci.ADDRESS,
-        ci.TELEPHONE,
-        ci.EMAIL,
-        ci.ENTERPRISE_SCALE,
-        ci.CUSTOMER_SOURCE,
-        ci.SUPPLIER_BEFORE,
-        ci.INDUSTRY_CATEGORY,
-        ci.ZH_CUSTNO,
-        ci.AWARD_WAY_DOMESTIC ||' - '|| ci.AWARD_WAY_ABROAD AS awardWay,
-        ci.IS_INTRODUCED,
-        ci.INTRODUCER_NAME,
-        ci.INTRODUCER_MOBILE,
-        ci.REMARK,
-        ci.IS_LARGE,
-        ci.CUSTOMER_NO_SZA,
-        ci.BRIEFNAME_SZA,
-        ci.PURCHASE_WAY,
-        ci.PREDICT_AMOUNT_DOMESTIC,
-        ci.PREDICT_AMOUNT_ABROAD,
-        ci.POLICY,
-        ci.POINT,
-        to_char(ci.RUNTIME,'yyyy-MM-dd HH24:mi:ss') as runtime,
-        to_char(ci.RUNTIMES,'yyyy-MM-dd HH24:mi:ss') as runtimes,
-        ci.TOTAL_TRAVEL,
-        ci.CUSTOMER_TYPE,
-        ci.ENTERPRISE_PROP,
-        ci.IS_STOCK_CUST,
-        ci.CONSULT_FEE,
-        ci.CORE_NEED,
-        ci.LINKMAN,
-        ci.FAX,
-        ci.IS_BIDDED,
-        ci.IS_WINNER,
-        ci.IS_COSTCONTROL,
-        ci.IS_PARITY,
-        ci.PARITY_TYPE,
-        ci.HAS_LARGE_CONFERENCE,
-        ci.IS_INDENTIFIED,
-        ci.ZX_FLAG,
-        ci.APPOINTMENT,
-        ci.APPOINTMENT_TELEPHONE,
-        ci.APPOINTMENT_POSITION,
-        to_char(ci.LAST_FOLLOWED_TIME,'yyyy-MM-dd HH24:mi:ss') as lastFollowedTim,
-        ci.FTKT_PREDAY,
-        ci.CUSTOMER_PASSWORD,
-        ci.ORGANIZATION_CODE,
-        ci.INSPECTION,
-        ci.ACCOUNT_NAME,
-        ci.LICENSE_NO,
-        ci.REGIST_FUND,
-        ci.LEGAL,
-        ci.DEPOSIT,
-        ci.CREDIT_AMOUNT,
-        ci.SET_PERIOD,
-        ci.PREPAY_NEW,
-        ci.NOSET_REMARK,
-        ci.AUDIT_STATUS,
-        to_char(ci.ENTRY_TIME,'yyyy-MM-dd HH24:mi:ss') AS ENTRY_TIME,
-        to_char(ci.CREATE_DATE,'yyyy-MM-dd HH24:mi:ss') AS CREATE_DATE,
-        to_char(ci.CONTRACT_ENDDATE,'yyyy-MM-dd') AS CONTRACT_EXPIRE_DATE,
-        ci.NAME,
-        ci.CUSTOMER_CODE
+        ci.ID AS id,
+        ci.DIARY_HEAD AS diaryHead,
+        ci.DIARY_CONTENT AS diaryContent
         FROM
-        V_CUSTOMER_INFO ci
-        WHERE
-        ci.CUSTOMER_NO IS NOT NULL
-        AND ci.CUSTOMER_STATUS = '2'
-        AND ci.CUSTOMER_CLASS = '协议大客户'
-        AND ci.DEL_FLG = '0'
-        AND UPPER(ci.MANAGE_ID) = UPPER(#{ manageId })
-        <if test="addressId != null and addressId != ''">
-            AND ci.ADDRESS_ID = #{ addressId }
-        </if>
-        <if test="region != null and region != ''">
-            AND ci.REGION = #{ region }
-        </if>
-        <if test="customerName != null and customerName != ''">
-            AND lower(ci.CUSTOMER_NAME) LIKE lower(concat(concat('%',#{ customerName }),'%'))
-        </if>
-        <if test="customerNo != null and customerNo != ''">
-            AND lower(ci.CUSTOMER_NO) LIKE lower(concat(concat('%',#{ customerNo }),'%'))
-        </if>
-        <if test="customerNoSza != null and customerNoSza != ''">
-            AND lower(ci.CUSTOMER_NO_SZA) LIKE lower(concat(concat('%',#{ customerNoSza }),'%'))
-        </if>
-        <if test="guaranteeWay != null and guaranteeWay != ''">
-            AND ci.GUARANTEE_WAY = #{ guaranteeWay }
-        </if>
-        <if test="industry != null and industry != ''">
-            AND ci.INDUSTRY_CATEGORY = #{ industry }
-        </if>
-        <if test="enterPriseprop != null and enterPriseprop != ''">
-            AND ci.ENTERPRISE_PROP = #{ enterPriseprop }
-        </if>
-        <if test="manageId != null and manageId != ''">
-            AND UPPER(ci.MANAGE_ID) = UPPER(#{ manageId })
-        </if>
-        <if test="entryStartTime != null and entryStartTime != ''">
-            AND ci.CREATE_DATE &gt;= TO_TIMESTAMP(#{ entryStartTime }, 'yyyy-mm-dd hh24:mi:ss')
-        </if>
-        <if test="entryEndTime != null and entryEndTime != ''">
-            AND ci.CREATE_DATE &lt;= TO_TIMESTAMP(#{ entryEndTime }, 'yyyy-mm-dd hh24:mi:ss')
-        </if>
-        <if test="contractExpireStartDate != null and contractExpireStartDate != ''">
-            AND ci.CONTRACT_ENDDATE &gt;= TO_TIMESTAMP(#{ contractExpireStartDate }, 'yyyy-mm-dd hh24:mi:ss')
-        </if>
-        <if test="contractExpireEndDate != null and contractExpireEndDate != ''">
-            AND ci.CONTRACT_ENDDATE &lt;= TO_TIMESTAMP(#{ contractExpireEndDate }, 'yyyy-mm-dd hh24:mi:ss')
-        </if>
-        ORDER BY ci.CREATE_DATE DESC, ci.UPDATE_TIME DESC, ci.CUSTOMER_NO
+        DIARY ci
     </select>
 
+    <insert id="addDiary" parameterType="com.example.demo.dao.entity.DiaryEntity">
+        INSERT INTO DIARY(DIARY_HEAD,DIARY_CONTENT)
+        VALUES(#{diaryHead},#{diaryContent})
+    </insert>
 
 </mapper>

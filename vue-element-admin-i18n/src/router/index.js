@@ -172,6 +172,18 @@ export const asyncRoutes = [
   },
 
   {
+    path: '/diary',
+    component: Layout,
+    children: [
+      {
+        path: 'diary',
+        component: () => import('@/views/diary/index'),
+        name: 'diary',
+        meta: { title: '日记', icon: 'icon', noCache: true }
+      }
+    ]
+  },
+  {
     path: '/icon',
     component: Layout,
     children: [
