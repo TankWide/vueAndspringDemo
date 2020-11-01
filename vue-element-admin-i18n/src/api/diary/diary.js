@@ -29,7 +29,7 @@ export function addDiary(data) {
     })
   } else {
     return request({
-      url: '/szacrm-manager-customer/helloController/addDiary',
+      url: '/szacrm-manager-customer/diaryController/addDiary',
       headers: {
         'token': store.getters.token
       },

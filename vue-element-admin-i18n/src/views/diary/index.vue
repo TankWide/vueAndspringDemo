@@ -20,6 +20,7 @@
 // import svgIcons from './svg-icons'
 // import elementIcons from './element-icons'
 import { addDiary } from '@/api/diary/diary.js'
+import store from '@/store/index.js'
 
 export default {
   data() {
@@ -33,6 +34,7 @@ export default {
   methods: {
     onSubmit() {
       addDiary(this.form).then((response) => {
+        store.getters.roles
         console.log(response)
         if (response.data.status === 'success') {
           this.$message.success('新增成功!')

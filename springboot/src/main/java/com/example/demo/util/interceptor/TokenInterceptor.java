@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.service.UserService;
 import com.example.demo.util.JwtUtils;
+import com.example.demo.util.UserThreadLocal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
@@ -52,6 +53,7 @@ public class TokenInterceptor implements HandlerInterceptor {
         }
         //将验证通过后的用户信息放到请求中,继续往下执行
         request.setAttribute("user", userId);
+        UserThreadLocal.set(userId);
         return true;
     }
 

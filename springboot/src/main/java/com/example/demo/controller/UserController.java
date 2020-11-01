@@ -35,18 +35,17 @@ public class UserController {
     @GetMapping(value = "/info")
     @ResponseBody
     public CommonReturnType getInfo(@RequestParam String token) throws Exception {
+        // 根据token获取userID查询user信息
         CommonReturnType result = new CommonReturnType();
-//        UserEntity login = userService.login(diaryEntity);
+        Integer userId = JwtUtils.getUserId(token);
+        UserEntity login = userService.queryByUserId(userId);
         Map map = new HashMap<>();
         List list = new ArrayList();
         list.add("admin");
 
-        map.put("roles", list);
-        map.put("introduction", "I am a super administrator");
-        map.put("avatar", "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");
-        map.put("name", "Super Admin");
+        login.setRoles(list);
         result.setCode(20000);
-        result.setData(map);
+        result.setData(login);
         return result;
     }
 
@@ -56,6 +55,17 @@ public class UserController {
         CommonReturnType result = new CommonReturnType();
         result.setCode(20000);
         result.setData("success");
+        return result;
+    }
+
+    @PostMapping(value = "/userList")
+    @ResponseBody
+    public CommonReturnType userList() throws Exception {
+        CommonReturnType result = new CommonReturnType();
+        Integer inputModel = 0;
+        List<UserEntity> userEntities = userService.userList(inputModel);
+        result.setCode(200);
+        result.setData(userEntities);
         return result;
     }
 }

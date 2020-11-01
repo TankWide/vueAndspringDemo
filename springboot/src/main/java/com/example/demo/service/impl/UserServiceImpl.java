@@ -6,6 +6,8 @@ import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -23,5 +25,11 @@ public class UserServiceImpl implements UserService {
     public UserEntity queryByUserId(Integer inputModel) throws Exception {
         UserEntity login = userMapper.queryByUserId(inputModel);
         return login;
+    }
+
+    @Override
+    public List<UserEntity> userList(Integer inputModel) throws Exception {
+        List<UserEntity> userEntities = userMapper.userList(inputModel);
+        return userEntities;
     }
 }

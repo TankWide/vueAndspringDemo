@@ -31,8 +31,7 @@ public class DiaryController {
     @ResponseBody
     public CommonReturnType queryDiaryList(@RequestBody DiaryEntity diaryEntity) throws Exception {
         CommonReturnType returnType = new CommonReturnType();
-        String fitstStr = new String();
-        List pagination = bigCustomService.queryDiaryList(fitstStr);
+        List pagination = bigCustomService.queryDiaryList(diaryEntity);
         returnType.setCode(200);
         returnType.setData(pagination);
         return returnType;

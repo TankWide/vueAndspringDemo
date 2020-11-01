@@ -25,3 +25,14 @@ export function logout() {
     method: 'post'
   })
 }
+
+export function userList(token) {
+  return request({
+    url: '/szacrm-manager-customer/user/userList',
+    method: 'post',
+    headers: {
+      'token': store.getters.token
+    },
+    params: { token }
+  })
+}

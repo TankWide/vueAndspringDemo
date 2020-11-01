@@ -6,14 +6,31 @@
         SELECT
         ci.ID AS id,
         ci.DIARY_HEAD AS diaryHead,
-        ci.DIARY_CONTENT AS diaryContent
+        ci.DIARY_CONTENT AS diaryContent,
+        date_format(ci.CREAT_TIME,'%Y-%m-%d') AS creatTime,
+        ub.USER_NAME AS userName
         FROM
         DIARY ci
+        left join USER_BASE ub on ci.USER_ID = ub.ID
+        where ci.ID is not null
+
+        <if test="diaryHead != null and diaryHead != ''">
+            AND ci.DIARY_HEAD like #{ diaryHead }
+        </if>
+        <if test="userName != null and userName != ''">
+            AND ci.USER_ID = #{ userName }
+        </if>
+        <if test="startCreatTime != null and startCreatTime != ''">
+            AND ci.CREAT_TIME &gt;= #{ lastArrivalDay }
+        </if>
+        <if test="endCreatTime != null and endCreatTime != ''">
+            AND ci.CREAT_TIME &lt;= #{ lastArrivalDay }
+        </if>
     </select>
 
     <insert id="addDiary" parameterType="com.example.demo.dao.entity.DiaryEntity">
-        INSERT INTO DIARY(DIARY_HEAD,DIARY_CONTENT)
-        VALUES(#{diaryHead},#{diaryContent})
+        INSERT INTO DIARY(DIARY_HEAD,DIARY_CONTENT,USER_ID,CREAT_TIME)
+        VALUES(#{diaryHead},#{diaryContent},#{userId},current_date )
     </insert>
 
 </mapper>

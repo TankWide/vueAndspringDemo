@@ -9,7 +9,7 @@ import java.util.List;
 public interface BigCustomMapper {
 
 
-    List<DiaryEntity> queryDiaryList();
+    List<DiaryEntity> queryDiaryList(DiaryEntity entity);
 
     int addDiary(DiaryEntity diaryEntity);
 

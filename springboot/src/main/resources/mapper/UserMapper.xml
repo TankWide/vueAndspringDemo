@@ -25,4 +25,14 @@
         where ci.ID=#{ id }
     </select>
 
+    <select id="userList" resultType="com.example.demo.dao.entity.UserEntity"
+            parameterType="Integer">
+        SELECT
+        ci.ID AS id,
+        ci.USER_NAME AS username,
+        ci.PASSWORD AS password
+        FROM
+        USER_BASE ci
+    </select>
+
 </mapper>
