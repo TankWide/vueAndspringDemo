@@ -186,7 +186,7 @@ export const asyncRoutes = [
         path: 'diary',
         component: () => import('@/views/diary/index'),
         name: 'diary',
-        meta: { title: '写日记', icon: 'icon', noCache: true }
+        meta: { title: '日记', icon: 'edit', noCache: true }
       }
     ]
   },
