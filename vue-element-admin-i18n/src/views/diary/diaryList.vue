@@ -1,43 +1,51 @@
 <template>
-  <div class="icons-container">
-    <el-form ref="form" :model="form" label-width="80px">
-      <el-form-item label="日记头">
-        <el-input v-model="form.diaryHead" />
-      </el-form-item>
-      <el-form-item label="日记内容">
-        <el-input v-model="form.diaryContent" type="textarea" />
-      </el-form-item>
-      <el-form-item>
-        <el-button type="primary" @click="onSubmit">立即创建</el-button>
-        <el-button>取消</el-button>
-      </el-form-item>
-    </el-form>
-  </div>
+  <el-table
+    :data="tableData"
+    border
+    style="width: 100%"
+  >
+    <el-table-column
+      prop="createTime"
+      label="写作日期"
+      width="180"
+    />
+    <el-table-column
+      prop="diaryHead"
+      label="日记标题"
+      width="180"
+    />
+    <el-table-column
+      prop="userName"
+      label="姓名"
+    />
+  </el-table>
 </template>
 
 <script>
 // import clipboard from '@/utils/clipboard'
 // import svgIcons from './svg-icons'
 // import elementIcons from './element-icons'
-import { addDiary } from '@/api/diary/diary.js'
+import { queryDiaryList } from '@/api/diary/diary.js'
 
 export default {
   data() {
     return {
+      tableData: [],
       form: {
-        diaryHead: '',
-        diaryContent: ''
+        diaryHead: '11',
+        diaryContent: '11'
       }
     }
   },
+  created() {
+    this.queryDiaryList()
+  },
   methods: {
-    onSubmit() {
-      addDiary(this.form).then((response) => {
+    queryDiaryList() {
+      queryDiaryList(this.form).then((response) => {
         console.log(response)
-        if (response.data.status === 'success') {
-          this.$message.success('新增成功!')
-          this.tCustomerReceiptDialog = false
-          this.getCustomerReceipt()
+        if (response.code === 200) {
+          this.tableData = response.data
         } else {
           this.$message.error('新增失败!')
         }

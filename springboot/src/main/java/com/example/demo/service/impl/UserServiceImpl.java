@@ -18,4 +18,10 @@ public class UserServiceImpl implements UserService {
         UserEntity login = userMapper.login(inputModel);
         return login;
     }
+
+    @Override
+    public UserEntity queryByUserId(Integer inputModel) throws Exception {
+        UserEntity login = userMapper.queryByUserId(inputModel);
+        return login;
+    }
 }

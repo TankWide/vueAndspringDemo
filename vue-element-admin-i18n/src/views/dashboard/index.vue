@@ -8,7 +8,7 @@
 import { mapGetters } from 'vuex'
 import adminDashboard from './admin'
 import editorDashboard from './editor'
-import { CClientManageSelect } from '@/api/cclient/cclientManage.js'
+import { diary } from '@/api/diary/diary.js'
 
 export default {
   name: 'Dashboard',
@@ -24,7 +24,7 @@ export default {
     ])
   },
   created() {
-    CClientManageSelect('data').then(response => {
+    diary('data').then(response => {
       if (response.data.data.status === 'success') {
         // callback()
       } else {

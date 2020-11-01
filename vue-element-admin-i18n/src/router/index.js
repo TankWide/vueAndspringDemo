@@ -174,12 +174,19 @@ export const asyncRoutes = [
   {
     path: '/diary',
     component: Layout,
+    meta: { title: '日记', icon: 'icon', noCache: true },
     children: [
+      {
+        path: 'diaryList',
+        component: () => import('@/views/diary/diaryList'),
+        name: 'diaryList',
+        meta: { title: '日记列表', icon: 'icon', noCache: true }
+      },
       {
         path: 'diary',
         component: () => import('@/views/diary/index'),
         name: 'diary',
-        meta: { title: '日记', icon: 'icon', noCache: true }
+        meta: { title: '写日记', icon: 'icon', noCache: true }
       }
     ]
   },

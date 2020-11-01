@@ -24,9 +24,9 @@ public class BigCustomServiceImpl implements BigCustomService {
      */
     @Override
     // @SysLog("查询日志 BigCustomServiceImpl---pagination")
-    public List pagination(String inputModel) throws Exception {
+    public List queryDiaryList(String inputModel) throws Exception {
         List outputDos = new ArrayList();
-        outputDos = bigCustomMapper.pagination();
+        outputDos = bigCustomMapper.queryDiaryList();
         return outputDos;
     }
 

@@ -1,5 +1,5 @@
 import request from '@/utils/request'
-
+import store from '@/store'
 export function login(data) {
   return request({
     url: '/szacrm-manager-customer/user/login',
@@ -12,13 +12,16 @@ export function getInfo(token) {
   return request({
     url: '/szacrm-manager-customer/user/info',
     method: 'get',
+    headers: {
+      'token': store.getters.token
+    },
     params: { token }
   })
 }
 
 export function logout() {
   return request({
-    url: '/vue-element-admin/user/logout',
+    url: '/szacrm-manager-customer/user/logout',
     method: 'post'
   })
 }

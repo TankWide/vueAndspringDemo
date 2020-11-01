@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.dao.entity.UserEntity;
 import com.example.demo.service.UserService;
 import com.example.demo.util.CommonReturnType;
+import com.example.demo.util.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +12,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Handler;
 
 @Controller
 @RequestMapping(value = "/user")
@@ -26,7 +26,7 @@ public class UserController {
         CommonReturnType result = new CommonReturnType();
         UserEntity login = userService.login(diaryEntity);
         Map map = new HashMap<>();
-        map.put("token", "admin-token");
+        map.put("token", JwtUtils.getToken(login));
         result.setCode(20000);
         result.setData(map);
         return result;
@@ -47,6 +47,15 @@ public class UserController {
         map.put("name", "Super Admin");
         result.setCode(20000);
         result.setData(map);
+        return result;
+    }
+
+    @PostMapping(value = "/logout")
+    @ResponseBody
+    public CommonReturnType logout() throws Exception {
+        CommonReturnType result = new CommonReturnType();
+        result.setCode(20000);
+        result.setData("success");
         return result;
     }
 }

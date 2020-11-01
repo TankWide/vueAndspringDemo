@@ -9,7 +9,7 @@ import java.util.List;
 public interface BigCustomMapper {
 
 
-    List<DiaryEntity> pagination();
+    List<DiaryEntity> queryDiaryList();
 
     int addDiary(DiaryEntity diaryEntity);
 

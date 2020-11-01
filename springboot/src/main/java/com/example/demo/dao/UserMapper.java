@@ -9,5 +9,6 @@ public interface UserMapper {
 
     UserEntity login(UserEntity userEntity);
 
+    UserEntity queryByUserId(Integer userEntity);
 
 }

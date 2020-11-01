@@ -12,7 +12,7 @@ public interface BigCustomService {
 	 * @param inputModel
 	 * @param
 	 */
-	List pagination(String inputModel) throws Exception;
+	List queryDiaryList(String inputModel) throws Exception;
 
 	Integer addDiary(DiaryEntity inputModel) throws Exception;
 

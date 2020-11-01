@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.dao.entity.DiaryEntity;
 import com.example.demo.service.BigCustomService;
+import com.example.demo.util.CommonReturnType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,8 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @Controller
-@RequestMapping(value = "/helloController")
-public class HelloController {
+@RequestMapping(value = "/diaryController")
+public class DiaryController {
     @Autowired
     private BigCustomService bigCustomService;
 
@@ -26,12 +27,15 @@ public class HelloController {
     }
 
     //    @PostMapping(value = "/paginationApplyEdit")
-    @RequestMapping("/first")
+    @PostMapping("/queryDiaryList")
     @ResponseBody
-    public List first(Model model, HttpServletResponse response) throws Exception {
+    public CommonReturnType queryDiaryList(@RequestBody DiaryEntity diaryEntity) throws Exception {
+        CommonReturnType returnType = new CommonReturnType();
         String fitstStr = new String();
-        List pagination = bigCustomService.pagination(fitstStr);
-        return pagination;
+        List pagination = bigCustomService.queryDiaryList(fitstStr);
+        returnType.setCode(200);
+        returnType.setData(pagination);
+        return returnType;
     }
 
     @PostMapping(value = "/addDiary")

@@ -1,9 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.dao.entity.DiaryEntity;
 import com.example.demo.dao.entity.UserEntity;
-
-import java.util.List;
 
 public interface UserService {
 
@@ -16,4 +13,5 @@ public interface UserService {
     UserEntity login(UserEntity inputModel) throws Exception;
 
 
+    UserEntity queryByUserId(Integer inputModel) throws Exception;
 }

@@ -3,7 +3,7 @@ import store from '@/store'
 import { logout } from '@/api/user'
 import { removeToken } from '@/utils/auth'
 
-export function CClientManageSelect(data) {
+export function queryDiaryList(data) {
   if (store.getters.token === null || store.getters.token === undefined || store.getters.token === '') {
     logout().then(() => {
       removeToken()
@@ -11,9 +11,9 @@ export function CClientManageSelect(data) {
     })
   } else {
     return request({
-      url: '/szacrm-manager-customer/helloController/first',
+      url: '/szacrm-manager-customer/diaryController/queryDiaryList',
       headers: {
-        'Authorization': 'Bearer ' + store.getters.token
+        'token': store.getters.token
       },
       method: 'POST',
       data
@@ -31,7 +31,7 @@ export function addDiary(data) {
     return request({
       url: '/szacrm-manager-customer/helloController/addDiary',
       headers: {
-        'Authorization': 'Bearer ' + store.getters.token
+        'token': store.getters.token
       },
       method: 'POST',
       data
