@@ -36,7 +36,7 @@ const actions = {
       login({ username: username.trim(), password: password }).then(response => {
         const { data } = response
         commit('SET_TOKEN', data.data.token)
-        setToken(data.token)
+        setToken(data.data.token)
         resolve()
       }).catch(error => {
         reject(error)
@@ -53,7 +53,6 @@ const actions = {
         if (!data) {
           reject('Verification failed, please Login again.')
         }
-
         const { roles, name, avatar, introduction } = data
         // roles must be a non-empty array
         if (!roles || roles.length <= 0) {

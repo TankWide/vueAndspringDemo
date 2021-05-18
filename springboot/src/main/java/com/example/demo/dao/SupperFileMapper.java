@@ -4,10 +4,10 @@ import com.example.demo.dao.entity.SupplierFile;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
-public interface SupperMapper {
+public interface SupperFileMapper {
 
 
-    SupplierFile insertFile(SupplierFile userEntity);
+    int insertFile(SupplierFile userEntity);
 
 
 }

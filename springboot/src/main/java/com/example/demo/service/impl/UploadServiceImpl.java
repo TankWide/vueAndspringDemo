@@ -1,7 +1,8 @@
 package com.example.demo.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.example.demo.dao.SupperMapper;
+import com.example.demo.dao.BigCustomMapper;
+import com.example.demo.dao.SupperFileMapper;
 import com.example.demo.dao.entity.ObjectToJson;
 import com.example.demo.dao.entity.SupplierFile;
 import com.example.demo.service.UploadService;
@@ -20,7 +21,10 @@ public class UploadServiceImpl implements UploadService {
     String uploadPath;
 
     @Autowired
-    private SupperMapper supperMapper;
+    private SupperFileMapper supperMapper;
+
+    @Autowired
+    private BigCustomMapper bigCustomMapper;
 
     @Override
     public SupplierFile uploadContract(MultipartFile[] multipartFiles) throws Exception {

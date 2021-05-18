@@ -2,7 +2,7 @@
   <div class="components-container">
     <el-upload
       class="avatar-uploader"
-      action="/diaryController/uploadContract"
+      action="/szacrm-manager-customer/diaryController/uploadContract"
       :show-file-list="false"
       :headers="headers"
     >
@@ -41,13 +41,17 @@ export default {
   data() {
     return {
       headers: {
-        Authorization: 'Bearer ' + store.getters.token
+        Authorization: 'Bearer ' + store.getters.token,
+        token: store.getters.token
       },
       imagecropperShow: false,
       imagecropperKey: 0,
       image: 'https://wpimg.wallstcn.com/577965b9-bb9e-4e02-9f0c-095b41417191',
       uploadContract: uploadContract
     }
+  },
+  created() {
+    console.log(store.getters.token)
   },
   methods: {
     cropSuccess(resData) {
