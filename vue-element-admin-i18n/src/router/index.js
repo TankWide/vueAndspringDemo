@@ -187,6 +187,12 @@ export const asyncRoutes = [
         component: () => import('@/views/diary/index'),
         name: 'diary',
         meta: { title: '日记', icon: 'edit', noCache: true }
+      },
+      {
+        path: 'upDown',
+        component: () => import('@/views/diary/upDown'),
+        name: 'upDown',
+        meta: { title: '上传和下载', icon: 'edit', noCache: true }
       }
     ]
   },

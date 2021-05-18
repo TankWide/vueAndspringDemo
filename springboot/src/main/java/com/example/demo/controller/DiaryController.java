@@ -1,15 +1,15 @@
 package com.example.demo.controller;
 
 import com.example.demo.dao.entity.DiaryEntity;
+import com.example.demo.dao.entity.SupplierFile;
 import com.example.demo.service.BigCustomService;
+import com.example.demo.service.UploadService;
 import com.example.demo.util.CommonReturnType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
@@ -19,6 +19,9 @@ import java.util.List;
 public class DiaryController {
     @Autowired
     private BigCustomService bigCustomService;
+
+    @Autowired
+    private UploadService uploadService;
 
     @RequestMapping("/")
     public String index(Model model, HttpServletResponse response) {
@@ -42,5 +45,13 @@ public class DiaryController {
     public Integer addDiary(@RequestBody DiaryEntity diaryEntity) throws Exception {
         Integer s = bigCustomService.addDiary(diaryEntity);
         return s;
+    }
+
+
+    @PostMapping("/uploadContract")
+    public SupplierFile uploadContract(@RequestBody @RequestParam("file") MultipartFile multipartFile[])
+            throws Exception {
+        SupplierFile file = uploadService.uploadContract(multipartFile);
+        return file;
     }
 }

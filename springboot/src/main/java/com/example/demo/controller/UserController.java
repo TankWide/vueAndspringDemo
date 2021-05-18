@@ -34,7 +34,7 @@ public class UserController {
 
     @GetMapping(value = "/info")
     @ResponseBody
-    public CommonReturnType getInfo(@RequestParam String token) throws Exception {
+    public UserEntity getInfo(@RequestParam String token) throws Exception {
         // 根据token获取userID查询user信息
         CommonReturnType result = new CommonReturnType();
         Integer userId = JwtUtils.getUserId(token);
@@ -44,9 +44,10 @@ public class UserController {
         list.add("admin");
 
         login.setRoles(list);
+        login.setToken(token);
         result.setCode(20000);
         result.setData(login);
-        return result;
+        return login;
     }
 
     @PostMapping(value = "/logout")

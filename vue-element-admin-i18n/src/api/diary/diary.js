@@ -38,3 +38,21 @@ export function addDiary(data) {
     })
   }
 }
+
+export function uploadContract(data) {
+  if (store.getters.token === null || store.getters.token === undefined || store.getters.token === '') {
+    logout().then(() => {
+      removeToken()
+      location.reload()
+    })
+  } else {
+    return request({
+      url: '/szacrm-manager-customer/diaryController/uploadContract',
+      headers: {
+        'token': store.getters.token
+      },
+      method: 'POST',
+      data
+    })
+  }
+}
