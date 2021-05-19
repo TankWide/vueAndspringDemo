@@ -1,7 +1,6 @@
 package com.example.demo.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.example.demo.dao.BigCustomMapper;
 import com.example.demo.dao.SupperFileMapper;
 import com.example.demo.dao.entity.ObjectToJson;
 import com.example.demo.dao.entity.SupplierFile;
@@ -10,6 +9,7 @@ import com.example.demo.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ClassUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
@@ -23,13 +23,12 @@ public class UploadServiceImpl implements UploadService {
     @Autowired
     private SupperFileMapper supperMapper;
 
-    @Autowired
-    private BigCustomMapper bigCustomMapper;
 
     @Override
     public SupplierFile uploadContract(MultipartFile[] multipartFiles) throws Exception {
         MultipartFile multipartFile = multipartFiles[0];
-        String uploadFilePath = uploadPath;
+        String uploadFilePath = ClassUtils.getDefaultClassLoader().getResource("static").getPath();
+//        String uploadFilePath = uploadPath;
         // Date date = new Date();
         // SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
         // String time = sdf.format(date);
@@ -52,7 +51,7 @@ public class UploadServiceImpl implements UploadService {
         try {
             inputStream = multipartFile.getInputStream();
             bufferedInputStream = new BufferedInputStream(inputStream);
-            file = new File(uploadFilePath + randomStr + File.separator + fileName);
+            file = new File(uploadFilePath + File.separator + fileName);
             if (!file.getParentFile().isDirectory()) {
                 file.getParentFile().mkdirs();
             }

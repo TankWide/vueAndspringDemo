@@ -67,9 +67,9 @@ export default {
         diaryHead: '1'
       }
       getUrl(form).then(res => {
-        // this.uploadUrl =   JSON.parse(res.data.data.attachmentPath).url
+        this.uploadUrl = 'http://localhost:8080' + JSON.parse(res.data.data.attachmentPath).url
       //  this.uploadUrl = 'file:///E://usr//local//szacrm//web//upload//X3G7U//1024-4.png'
-        this.uploadUrl = ' http://192.168.0.112:8080/static/1024-4.png'
+        // this.uploadUrl = ' http://localhost:8080/1024-4.png'
       })
     },
     cropSuccess(resData) {
