@@ -8,11 +8,18 @@
     >
       <i class="el-icon-upload" />
       <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>
-      <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
+      <div slot="tip" class="el-upload__tip">
+        只能上传jpg/png文件，且不超过500kb
+      </div>
     </el-upload>
     <pan-thumb :image="image" />
-
-    <el-button type="primary" icon="el-icon-upload" style="position: absolute;bottom: 15px;margin-left: 40px;" @click="imagecropperShow=true">
+    <img style="width: 50px; height: 50px" :src="uploadUrl" class="avatar">
+    <el-button
+      type="primary"
+      icon="el-icon-upload"
+      style="position: absolute; bottom: 15px; margin-left: 40px"
+      @click="imagecropperShow = true"
+    >
       Change Avatar
     </el-button>
 
@@ -32,7 +39,7 @@
 <script>
 import ImageCropper from '@/components/ImageCropper'
 import PanThumb from '@/components/PanThumb'
-import { uploadContract } from '@/api/diary/diary.js'
+import { uploadContract, getUrl } from '@/api/diary/diary.js'
 
 import store from '@/store'
 export default {
@@ -40,6 +47,7 @@ export default {
   components: { ImageCropper, PanThumb },
   data() {
     return {
+      uploadUrl: null,
       headers: {
         Authorization: 'Bearer ' + store.getters.token,
         token: store.getters.token
@@ -51,9 +59,19 @@ export default {
     }
   },
   created() {
-    console.log(store.getters.token)
+    this.getUrls()
   },
   methods: {
+    getUrls() {
+      var form = {
+        diaryHead: '1'
+      }
+      getUrl(form).then(res => {
+        // this.uploadUrl =   JSON.parse(res.data.data.attachmentPath).url
+      //  this.uploadUrl = 'file:///E://usr//local//szacrm//web//upload//X3G7U//1024-4.png'
+        this.uploadUrl = ' http://192.168.0.112:8080/static/1024-4.png'
+      })
+    },
     cropSuccess(resData) {
       this.imagecropperShow = false
       this.imagecropperKey = this.imagecropperKey + 1
@@ -67,10 +85,10 @@ export default {
 </script>
 
 <style scoped>
-  .avatar{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 </style>
 

@@ -9,5 +9,6 @@ public interface SupperFileMapper {
 
     int insertFile(SupplierFile userEntity);
 
+    SupplierFile getUrl();
 
 }

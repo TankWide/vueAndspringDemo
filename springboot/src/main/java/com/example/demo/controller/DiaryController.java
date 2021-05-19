@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping(value = "/diaryController")
 public class DiaryController {
     @Autowired
@@ -53,5 +53,15 @@ public class DiaryController {
             throws Exception {
         SupplierFile file = uploadService.uploadContract(multipartFile);
         return file;
+    }
+
+    @PostMapping("/getUrl")
+    @ResponseBody
+    public CommonReturnType getUrl(@RequestBody DiaryEntity diaryEntity) throws Exception {
+        CommonReturnType returnType = new CommonReturnType();
+        SupplierFile file = uploadService.getUrl();
+        returnType.setCode(200);
+        returnType.setData(file);
+        return returnType;
     }
 }

@@ -56,3 +56,20 @@ export function uploadContract(data) {
     })
   }
 }
+export function getUrl(data) {
+  if (store.getters.token === null || store.getters.token === undefined || store.getters.token === '') {
+    logout().then(() => {
+      removeToken()
+      location.reload()
+    })
+  } else {
+    return request({
+      url: '/szacrm-manager-customer/diaryController/getUrl',
+      headers: {
+        'token': store.getters.token
+      },
+      method: 'POST',
+      data
+    })
+  }
+}
