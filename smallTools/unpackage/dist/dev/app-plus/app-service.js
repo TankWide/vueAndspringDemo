@@ -1,8 +1,8 @@
 (this["webpackJsonp"] = this["webpackJsonp"] || []).push([["app-service"],[
 /* 0 */
-/*!*************************************************!*\
-  !*** E:/project/echartstest/smallTools/main.js ***!
-  \*************************************************/
+/*!******************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/main.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11,9 +11,9 @@ eval("__webpack_require__(/*! uni-pages */ 1);var _vue = _interopRequireDefault(
 
 /***/ }),
 /* 1 */
-/*!****************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages.json ***!
-  \****************************************************/
+/*!*********************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages.json ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38,9 +38,9 @@ __definePage('pages/testNetSpeed/testNetSpeed', function () {return Vue.extend(_
 
 /***/ }),
 /* 2 */
-/*!***************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/index/index.vue?mpType=page ***!
-  \***************************************************************************/
+/*!********************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/index/index.vue?mpType=page ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -49,9 +49,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 
 /***/ }),
 /* 3 */
-/*!*********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
-  \*********************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
+  \**************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -70,9 +70,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 4 */
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -165,9 +165,9 @@ render._withStripped = true
 
 /***/ }),
 /* 5 */
-/*!***************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
-  \***************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -176,14 +176,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 6 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; //\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default =\n{\n  data: function data() {\n    return {\n      title: 'createAnimation',\n      animationData: '' };\n\n  },\n  onUnload: function onUnload() {\n    this.animationData = '';\n  },\n  onLoad: function onLoad() {\n    this.animation = uni.createAnimation();\n  },\n  methods: {\n    rotate: function rotate() {\n      uni.navigateTo({\n        url: '../testNetSpeed/testNetSpeed' });\n\n    },\n    scale: function scale() {\n      this.animation.scale(Math.random() * 2).step();\n      this.animationData = this.animation.export();\n    },\n    translate: function translate() {\n      this.animation.translate(Math.random() * 100 - 50, Math.random() * 100 - 50).step();\n      this.animationData = this.animation.export();\n    },\n    skew: function skew() {\n      this.animation.skew(Math.random() * 90, Math.random() * 90).step();\n      this.animationData = this.animation.export();\n    },\n    rotateAndScale: function rotateAndScale() {\n      this.animation.rotate(Math.random() * 720 - 360).\n      scale(Math.random() * 2).\n      step();\n      this.animationData = this.animation.export();\n    },\n    rotateThenScale: function rotateThenScale() {\n      this.animation.rotate(Math.random() * 720 - 360).step().\n      scale(Math.random() * 2).step();\n      this.animationData = this.animation.export();\n    },\n    all: function all() {\n      this.animation.rotate(Math.random() * 720 - 360).\n      scale(Math.random() * 2).\n      translate(Math.random() * 100 - 50, Math.random() * 100 - 50).\n      skew(Math.random() * 90, Math.random() * 90).\n      step();\n      this.animationData = this.animation.export();\n    },\n    allInQueue: function allInQueue() {\n      this.animation.rotate(Math.random() * 720 - 360).step().\n      scale(Math.random() * 2).step().\n      translate(Math.random() * 100 - 50, Math.random() * 100 - 50).step().\n      skew(Math.random() * 90, Math.random() * 90).step();\n      this.animationData = this.animation.export();\n    },\n    reset: function reset() {\n      this.animation.rotate(0, 0).\n      scale(1).\n      translate(0, 0).\n      skew(0, 0).\n      step({\n        duration: 0 });\n\n      this.animationData = this.animation.export();\n    } } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvaW5kZXgvaW5kZXgudnVlIl0sIm5hbWVzIjpbImRhdGEiLCJ0aXRsZSIsImFuaW1hdGlvbkRhdGEiLCJvblVubG9hZCIsIm9uTG9hZCIsImFuaW1hdGlvbiIsInVuaSIsImNyZWF0ZUFuaW1hdGlvbiIsIm1ldGhvZHMiLCJyb3RhdGUiLCJuYXZpZ2F0ZVRvIiwidXJsIiwic2NhbGUiLCJNYXRoIiwicmFuZG9tIiwic3RlcCIsImV4cG9ydCIsInRyYW5zbGF0ZSIsInNrZXciLCJyb3RhdGVBbmRTY2FsZSIsInJvdGF0ZVRoZW5TY2FsZSIsImFsbCIsImFsbEluUXVldWUiLCJyZXNldCIsImR1cmF0aW9uIl0sIm1hcHBpbmdzIjoid0ZBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFZTtBQUNkQSxNQURjLGtCQUNQO0FBQ04sV0FBTztBQUNOQyxXQUFLLEVBQUUsaUJBREQ7QUFFTkMsbUJBQWEsRUFBRSxFQUZULEVBQVA7O0FBSUEsR0FOYTtBQU9kQyxVQVBjLHNCQU9IO0FBQ1YsU0FBS0QsYUFBTCxHQUFxQixFQUFyQjtBQUNBLEdBVGE7QUFVZEUsUUFWYyxvQkFVTDtBQUNSLFNBQUtDLFNBQUwsR0FBaUJDLEdBQUcsQ0FBQ0MsZUFBSixFQUFqQjtBQUNBLEdBWmE7QUFhZEMsU0FBTyxFQUFFO0FBQ1JDLFVBQU0sRUFBRSxrQkFBVztBQUNsQkgsU0FBRyxDQUFDSSxVQUFKLENBQWU7QUFDZEMsV0FBRyxFQUFFLDhCQURTLEVBQWY7O0FBR0EsS0FMTztBQU1SQyxTQUFLLEVBQUUsaUJBQVc7QUFDakIsV0FBS1AsU0FBTCxDQUFlTyxLQUFmLENBQXFCQyxJQUFJLENBQUNDLE1BQUwsS0FBZ0IsQ0FBckMsRUFBd0NDLElBQXhDO0FBQ0EsV0FBS2IsYUFBTCxHQUFxQixLQUFLRyxTQUFMLENBQWVXLE1BQWYsRUFBckI7QUFDQSxLQVRPO0FBVVJDLGFBQVMsRUFBRSxxQkFBVztBQUNyQixXQUFLWixTQUFMLENBQWVZLFNBQWYsQ0FBeUJKLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixHQUFoQixHQUFzQixFQUEvQyxFQUFtREQsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEdBQWhCLEdBQXNCLEVBQXpFLEVBQTZFQyxJQUE3RTtBQUNBLFdBQUtiLGFBQUwsR0FBcUIsS0FBS0csU0FBTCxDQUFlVyxNQUFmLEVBQXJCO0FBQ0EsS0FiTztBQWNSRSxRQUFJLEVBQUUsZ0JBQVc7QUFDaEIsV0FBS2IsU0FBTCxDQUFlYSxJQUFmLENBQW9CTCxJQUFJLENBQUNDLE1BQUwsS0FBZ0IsRUFBcEMsRUFBd0NELElBQUksQ0FBQ0MsTUFBTCxLQUFnQixFQUF4RCxFQUE0REMsSUFBNUQ7QUFDQSxXQUFLYixhQUFMLEdBQXFCLEtBQUtHLFNBQUwsQ0FBZVcsTUFBZixFQUFyQjtBQUNBLEtBakJPO0FBa0JSRyxrQkFBYyxFQUFFLDBCQUFXO0FBQzFCLFdBQUtkLFNBQUwsQ0FBZUksTUFBZixDQUFzQkksSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEdBQWhCLEdBQXNCLEdBQTVDO0FBQ0VGLFdBREYsQ0FDUUMsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLENBRHhCO0FBRUVDLFVBRkY7QUFHQSxXQUFLYixhQUFMLEdBQXFCLEtBQUtHLFNBQUwsQ0FBZVcsTUFBZixFQUFyQjtBQUNBLEtBdkJPO0FBd0JSSSxtQkFBZSxFQUFFLDJCQUFXO0FBQzNCLFdBQUtmLFNBQUwsQ0FBZUksTUFBZixDQUFzQkksSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEdBQWhCLEdBQXNCLEdBQTVDLEVBQWlEQyxJQUFqRDtBQUNFSCxXQURGLENBQ1FDLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixDQUR4QixFQUMyQkMsSUFEM0I7QUFFQSxXQUFLYixhQUFMLEdBQXFCLEtBQUtHLFNBQUwsQ0FBZVcsTUFBZixFQUFyQjtBQUNBLEtBNUJPO0FBNkJSSyxPQUFHLEVBQUUsZUFBVztBQUNmLFdBQUtoQixTQUFMLENBQWVJLE1BQWYsQ0FBc0JJLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixHQUFoQixHQUFzQixHQUE1QztBQUNFRixXQURGLENBQ1FDLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixDQUR4QjtBQUVFRyxlQUZGLENBRVlKLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixHQUFoQixHQUFzQixFQUZsQyxFQUVzQ0QsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEdBQWhCLEdBQXNCLEVBRjVEO0FBR0VJLFVBSEYsQ0FHT0wsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEVBSHZCLEVBRzJCRCxJQUFJLENBQUNDLE1BQUwsS0FBZ0IsRUFIM0M7QUFJRUMsVUFKRjtBQUtBLFdBQUtiLGFBQUwsR0FBcUIsS0FBS0csU0FBTCxDQUFlVyxNQUFmLEVBQXJCO0FBQ0EsS0FwQ087QUFxQ1JNLGNBQVUsRUFBRSxzQkFBVztBQUN0QixXQUFLakIsU0FBTCxDQUFlSSxNQUFmLENBQXNCSSxJQUFJLENBQUNDLE1BQUwsS0FBZ0IsR0FBaEIsR0FBc0IsR0FBNUMsRUFBaURDLElBQWpEO0FBQ0VILFdBREYsQ0FDUUMsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLENBRHhCLEVBQzJCQyxJQUQzQjtBQUVFRSxlQUZGLENBRVlKLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixHQUFoQixHQUFzQixFQUZsQyxFQUVzQ0QsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEdBQWhCLEdBQXNCLEVBRjVELEVBRWdFQyxJQUZoRTtBQUdFRyxVQUhGLENBR09MLElBQUksQ0FBQ0MsTUFBTCxLQUFnQixFQUh2QixFQUcyQkQsSUFBSSxDQUFDQyxNQUFMLEtBQWdCLEVBSDNDLEVBRytDQyxJQUgvQztBQUlBLFdBQUtiLGFBQUwsR0FBcUIsS0FBS0csU0FBTCxDQUFlVyxNQUFmLEVBQXJCO0FBQ0EsS0EzQ087QUE0Q1JPLFNBQUssRUFBRSxpQkFBVztBQUNqQixXQUFLbEIsU0FBTCxDQUFlSSxNQUFmLENBQXNCLENBQXRCLEVBQXlCLENBQXpCO0FBQ0VHLFdBREYsQ0FDUSxDQURSO0FBRUVLLGVBRkYsQ0FFWSxDQUZaLEVBRWUsQ0FGZjtBQUdFQyxVQUhGLENBR08sQ0FIUCxFQUdVLENBSFY7QUFJRUgsVUFKRixDQUlPO0FBQ0xTLGdCQUFRLEVBQUUsQ0FETCxFQUpQOztBQU9BLFdBQUt0QixhQUFMLEdBQXFCLEtBQUtHLFNBQUwsQ0FBZVcsTUFBZixFQUFyQjtBQUNBLEtBckRPLEVBYkssRSIsImZpbGUiOiI2LmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy9cbi8vXG4vL1xuLy9cbi8vXG4vL1xuLy9cbi8vXG4vL1xuLy9cbi8vXG4vL1xuLy9cbi8vXG4vL1xuLy9cbi8vXG5cbmV4cG9ydCBkZWZhdWx0IHtcblx0ZGF0YSgpIHtcblx0XHRyZXR1cm4ge1xuXHRcdFx0dGl0bGU6ICdjcmVhdGVBbmltYXRpb24nLFxuXHRcdFx0YW5pbWF0aW9uRGF0YTogJydcblx0XHR9XG5cdH0sXG5cdG9uVW5sb2FkKCkge1xuXHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9ICcnXG5cdH0sXG5cdG9uTG9hZCgpIHtcblx0XHR0aGlzLmFuaW1hdGlvbiA9IHVuaS5jcmVhdGVBbmltYXRpb24oKVxuXHR9LFxuXHRtZXRob2RzOiB7XG5cdFx0cm90YXRlOiBmdW5jdGlvbigpIHtcblx0XHRcdHVuaS5uYXZpZ2F0ZVRvKHtcblx0XHRcdFx0dXJsOiAnLi4vdGVzdE5ldFNwZWVkL3Rlc3ROZXRTcGVlZCdcblx0XHRcdH0pXG5cdFx0fSxcblx0XHRzY2FsZTogZnVuY3Rpb24oKSB7XG5cdFx0XHR0aGlzLmFuaW1hdGlvbi5zY2FsZShNYXRoLnJhbmRvbSgpICogMikuc3RlcCgpXG5cdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxuXHRcdH0sXG5cdFx0dHJhbnNsYXRlOiBmdW5jdGlvbigpIHtcblx0XHRcdHRoaXMuYW5pbWF0aW9uLnRyYW5zbGF0ZShNYXRoLnJhbmRvbSgpICogMTAwIC0gNTAsIE1hdGgucmFuZG9tKCkgKiAxMDAgLSA1MCkuc3RlcCgpXG5cdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxuXHRcdH0sXG5cdFx0c2tldzogZnVuY3Rpb24oKSB7XG5cdFx0XHR0aGlzLmFuaW1hdGlvbi5za2V3KE1hdGgucmFuZG9tKCkgKiA5MCwgTWF0aC5yYW5kb20oKSAqIDkwKS5zdGVwKClcblx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXG5cdFx0fSxcblx0XHRyb3RhdGVBbmRTY2FsZTogZnVuY3Rpb24oKSB7XG5cdFx0XHR0aGlzLmFuaW1hdGlvbi5yb3RhdGUoTWF0aC5yYW5kb20oKSAqIDcyMCAtIDM2MClcblx0XHRcdFx0LnNjYWxlKE1hdGgucmFuZG9tKCkgKiAyKVxuXHRcdFx0XHQuc3RlcCgpXG5cdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxuXHRcdH0sXG5cdFx0cm90YXRlVGhlblNjYWxlOiBmdW5jdGlvbigpIHtcblx0XHRcdHRoaXMuYW5pbWF0aW9uLnJvdGF0ZShNYXRoLnJhbmRvbSgpICogNzIwIC0gMzYwKS5zdGVwKClcblx0XHRcdFx0LnNjYWxlKE1hdGgucmFuZG9tKCkgKiAyKS5zdGVwKClcblx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXG5cdFx0fSxcblx0XHRhbGw6IGZ1bmN0aW9uKCkge1xuXHRcdFx0dGhpcy5hbmltYXRpb24ucm90YXRlKE1hdGgucmFuZG9tKCkgKiA3MjAgLSAzNjApXG5cdFx0XHRcdC5zY2FsZShNYXRoLnJhbmRvbSgpICogMilcblx0XHRcdFx0LnRyYW5zbGF0ZShNYXRoLnJhbmRvbSgpICogMTAwIC0gNTAsIE1hdGgucmFuZG9tKCkgKiAxMDAgLSA1MClcblx0XHRcdFx0LnNrZXcoTWF0aC5yYW5kb20oKSAqIDkwLCBNYXRoLnJhbmRvbSgpICogOTApXG5cdFx0XHRcdC5zdGVwKClcblx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXG5cdFx0fSxcblx0XHRhbGxJblF1ZXVlOiBmdW5jdGlvbigpIHtcblx0XHRcdHRoaXMuYW5pbWF0aW9uLnJvdGF0ZShNYXRoLnJhbmRvbSgpICogNzIwIC0gMzYwKS5zdGVwKClcblx0XHRcdFx0LnNjYWxlKE1hdGgucmFuZG9tKCkgKiAyKS5zdGVwKClcblx0XHRcdFx0LnRyYW5zbGF0ZShNYXRoLnJhbmRvbSgpICogMTAwIC0gNTAsIE1hdGgucmFuZG9tKCkgKiAxMDAgLSA1MCkuc3RlcCgpXG5cdFx0XHRcdC5za2V3KE1hdGgucmFuZG9tKCkgKiA5MCwgTWF0aC5yYW5kb20oKSAqIDkwKS5zdGVwKClcblx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXG5cdFx0fSxcblx0XHRyZXNldDogZnVuY3Rpb24oKSB7XG5cdFx0XHR0aGlzLmFuaW1hdGlvbi5yb3RhdGUoMCwgMClcblx0XHRcdFx0LnNjYWxlKDEpXG5cdFx0XHRcdC50cmFuc2xhdGUoMCwgMClcblx0XHRcdFx0LnNrZXcoMCwgMClcblx0XHRcdFx0LnN0ZXAoe1xuXHRcdFx0XHRcdGR1cmF0aW9uOiAwXG5cdFx0XHRcdH0pXG5cdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxuXHRcdH1cblx0fVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///6\n");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; //\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default =\n{\n  data: function data() {\n    return {\n      title: 'createAnimation',\n      animationData: '' };\n\n  },\n  onUnload: function onUnload() {\n    this.animationData = '';\n  },\n  onLoad: function onLoad() {\n    this.animation = uni.createAnimation();\n  },\n  methods: {\n    rotate: function rotate() {\n      uni.navigateTo({\n        url: '../testNetSpeed/testNetSpeed' });\n\n    },\n    scale: function scale() {\n      this.animation.scale(Math.random() * 2).step();\n      this.animationData = this.animation.export();\n    },\n    translate: function translate() {\n      this.animation.translate(Math.random() * 100 - 50, Math.random() * 100 - 50).step();\n      this.animationData = this.animation.export();\n    },\n    skew: function skew() {\n      this.animation.skew(Math.random() * 90, Math.random() * 90).step();\n      this.animationData = this.animation.export();\n    },\n    rotateAndScale: function rotateAndScale() {\n      this.animation.rotate(Math.random() * 720 - 360).\n      scale(Math.random() * 2).\n      step();\n      this.animationData = this.animation.export();\n    },\n    rotateThenScale: function rotateThenScale() {\n      this.animation.rotate(Math.random() * 720 - 360).step().\n      scale(Math.random() * 2).step();\n      this.animationData = this.animation.export();\n    },\n    all: function all() {\n      this.animation.rotate(Math.random() * 720 - 360).\n      scale(Math.random() * 2).\n      translate(Math.random() * 100 - 50, Math.random() * 100 - 50).\n      skew(Math.random() * 90, Math.random() * 90).\n      step();\n      this.animationData = this.animation.export();\n    },\n    allInQueue: function allInQueue() {\n      this.animation.rotate(Math.random() * 720 - 360).step().\n      scale(Math.random() * 2).step().\n      translate(Math.random() * 100 - 50, Math.random() * 100 - 50).step().\n      skew(Math.random() * 90, Math.random() * 90).step();\n      this.animationData = this.animation.export();\n    },\n    reset: function reset() {\n      this.animation.rotate(0, 0).\n      scale(1).\n      translate(0, 0).\n      skew(0, 0).\n      step({\n        duration: 0 });\n\n      this.animationData = this.animation.export();\n    } } };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvaW5kZXgvaW5kZXgudnVlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQWtCQTtBQUNBLE1BREEsa0JBQ0E7QUFDQTtBQUNBLDhCQURBO0FBRUEsdUJBRkE7O0FBSUEsR0FOQTtBQU9BLFVBUEEsc0JBT0E7QUFDQTtBQUNBLEdBVEE7QUFVQSxRQVZBLG9CQVVBO0FBQ0E7QUFDQSxHQVpBO0FBYUE7QUFDQTtBQUNBO0FBQ0EsMkNBREE7O0FBR0EsS0FMQTtBQU1BO0FBQ0E7QUFDQTtBQUNBLEtBVEE7QUFVQTtBQUNBO0FBQ0E7QUFDQSxLQWJBO0FBY0E7QUFDQTtBQUNBO0FBQ0EsS0FqQkE7QUFrQkE7QUFDQTtBQUNBLFdBREEsQ0FDQSxpQkFEQTtBQUVBLFVBRkE7QUFHQTtBQUNBLEtBdkJBO0FBd0JBO0FBQ0E7QUFDQSxXQURBLENBQ0EsaUJBREEsRUFDQSxJQURBO0FBRUE7QUFDQSxLQTVCQTtBQTZCQTtBQUNBO0FBQ0EsV0FEQSxDQUNBLGlCQURBO0FBRUEsZUFGQSxDQUVBLHdCQUZBLEVBRUEsd0JBRkE7QUFHQSxVQUhBLENBR0Esa0JBSEEsRUFHQSxrQkFIQTtBQUlBLFVBSkE7QUFLQTtBQUNBLEtBcENBO0FBcUNBO0FBQ0E7QUFDQSxXQURBLENBQ0EsaUJBREEsRUFDQSxJQURBO0FBRUEsZUFGQSxDQUVBLHdCQUZBLEVBRUEsd0JBRkEsRUFFQSxJQUZBO0FBR0EsVUFIQSxDQUdBLGtCQUhBLEVBR0Esa0JBSEEsRUFHQSxJQUhBO0FBSUE7QUFDQSxLQTNDQTtBQTRDQTtBQUNBO0FBQ0EsV0FEQSxDQUNBLENBREE7QUFFQSxlQUZBLENBRUEsQ0FGQSxFQUVBLENBRkE7QUFHQSxVQUhBLENBR0EsQ0FIQSxFQUdBLENBSEE7QUFJQSxVQUpBLENBSUE7QUFDQSxtQkFEQSxFQUpBOztBQU9BO0FBQ0EsS0FyREEsRUFiQSxFIiwiZmlsZSI6IjYuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XHJcblx0PHZpZXc+XHJcblx0XHQ8dmlldyBjbGFzcz1cInVuaS1wYWRkaW5nLXdyYXAgdW5pLWNvbW1vbi1tdFwiPlxyXG5cdFx0XHQ8c2Nyb2xsLXZpZXcgY2xhc3M9XCJhbmltYXRpb24tYnV0dG9uc1wiIHNjcm9sbC15PVwidHJ1ZVwiPlxyXG5cdFx0XHRcdDxidXR0b24gY2xhc3M9XCJhbmltYXRpb24tYnV0dG9uXCIgQHRhcD1cInJvdGF0ZVwiPue9kee7nOa1i+mAnzwvYnV0dG9uPlxyXG5cdFx0XHRcdDxidXR0b24gY2xhc3M9XCJhbmltYXRpb24tYnV0dG9uXCIgQHRhcD1cInNjYWxlXCI+57yp5pS+PC9idXR0b24+XHJcblx0XHRcdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwidHJhbnNsYXRlXCI+56e75YqoPC9idXR0b24+XHJcblx0XHRcdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwic2tld1wiPuWAvuaWnDwvYnV0dG9uPlxyXG5cdFx0XHRcdDxidXR0b24gY2xhc3M9XCJhbmltYXRpb24tYnV0dG9uXCIgQHRhcD1cInJvdGF0ZUFuZFNjYWxlXCI+5peL6L2s5bm257yp5pS+PC9idXR0b24+XHJcblx0XHRcdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwicm90YXRlVGhlblNjYWxlXCI+5peL6L2s5ZCO57yp5pS+PC9idXR0b24+XHJcblx0XHRcdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwiYWxsXCI+5ZCM5pe25bGV56S65YWo6YOoPC9idXR0b24+XHJcblx0XHRcdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwiYWxsSW5RdWV1ZVwiPumhuuW6j+WxleekuuWFqOmDqDwvYnV0dG9uPlxyXG5cdFx0XHRcdDxidXR0b24gY2xhc3M9XCJhbmltYXRpb24tYnV0dG9uIGFuaW1hdGlvbi1idXR0b24tcmVzZXRcIiBAdGFwPVwicmVzZXRcIj7ov5jljp88L2J1dHRvbj5cclxuXHRcdFx0PC9zY3JvbGwtdmlldz5cclxuXHRcdDwvdmlldz5cclxuXHQ8L3ZpZXc+XHJcbjwvdGVtcGxhdGU+XHJcbjxzY3JpcHQ+XHJcblx0ZXhwb3J0IGRlZmF1bHQge1xyXG5cdFx0ZGF0YSgpIHtcclxuXHRcdFx0cmV0dXJuIHtcclxuXHRcdFx0XHR0aXRsZTogJ2NyZWF0ZUFuaW1hdGlvbicsXHJcblx0XHRcdFx0YW5pbWF0aW9uRGF0YTogJydcclxuXHRcdFx0fVxyXG5cdFx0fSxcclxuXHRcdG9uVW5sb2FkKCkge1xyXG5cdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSAnJ1xyXG5cdFx0fSxcclxuXHRcdG9uTG9hZCgpIHtcclxuXHRcdFx0dGhpcy5hbmltYXRpb24gPSB1bmkuY3JlYXRlQW5pbWF0aW9uKClcclxuXHRcdH0sXHJcblx0XHRtZXRob2RzOiB7XHJcblx0XHRcdHJvdGF0ZTogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dW5pLm5hdmlnYXRlVG8oe1xyXG5cdFx0XHRcdFx0dXJsOiAnLi4vdGVzdE5ldFNwZWVkL3Rlc3ROZXRTcGVlZCdcclxuXHRcdFx0XHR9KVxyXG5cdFx0XHR9LFxyXG5cdFx0XHRzY2FsZTogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb24uc2NhbGUoTWF0aC5yYW5kb20oKSAqIDIpLnN0ZXAoKVxyXG5cdFx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXHJcblx0XHRcdH0sXHJcblx0XHRcdHRyYW5zbGF0ZTogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb24udHJhbnNsYXRlKE1hdGgucmFuZG9tKCkgKiAxMDAgLSA1MCwgTWF0aC5yYW5kb20oKSAqIDEwMCAtIDUwKS5zdGVwKClcclxuXHRcdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxyXG5cdFx0XHR9LFxyXG5cdFx0XHRza2V3OiBmdW5jdGlvbigpIHtcclxuXHRcdFx0XHR0aGlzLmFuaW1hdGlvbi5za2V3KE1hdGgucmFuZG9tKCkgKiA5MCwgTWF0aC5yYW5kb20oKSAqIDkwKS5zdGVwKClcclxuXHRcdFx0XHR0aGlzLmFuaW1hdGlvbkRhdGEgPSB0aGlzLmFuaW1hdGlvbi5leHBvcnQoKVxyXG5cdFx0XHR9LFxyXG5cdFx0XHRyb3RhdGVBbmRTY2FsZTogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb24ucm90YXRlKE1hdGgucmFuZG9tKCkgKiA3MjAgLSAzNjApXHJcblx0XHRcdFx0XHQuc2NhbGUoTWF0aC5yYW5kb20oKSAqIDIpXHJcblx0XHRcdFx0XHQuc3RlcCgpXHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb25EYXRhID0gdGhpcy5hbmltYXRpb24uZXhwb3J0KClcclxuXHRcdFx0fSxcclxuXHRcdFx0cm90YXRlVGhlblNjYWxlOiBmdW5jdGlvbigpIHtcclxuXHRcdFx0XHR0aGlzLmFuaW1hdGlvbi5yb3RhdGUoTWF0aC5yYW5kb20oKSAqIDcyMCAtIDM2MCkuc3RlcCgpXHJcblx0XHRcdFx0XHQuc2NhbGUoTWF0aC5yYW5kb20oKSAqIDIpLnN0ZXAoKVxyXG5cdFx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXHJcblx0XHRcdH0sXHJcblx0XHRcdGFsbDogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb24ucm90YXRlKE1hdGgucmFuZG9tKCkgKiA3MjAgLSAzNjApXHJcblx0XHRcdFx0XHQuc2NhbGUoTWF0aC5yYW5kb20oKSAqIDIpXHJcblx0XHRcdFx0XHQudHJhbnNsYXRlKE1hdGgucmFuZG9tKCkgKiAxMDAgLSA1MCwgTWF0aC5yYW5kb20oKSAqIDEwMCAtIDUwKVxyXG5cdFx0XHRcdFx0LnNrZXcoTWF0aC5yYW5kb20oKSAqIDkwLCBNYXRoLnJhbmRvbSgpICogOTApXHJcblx0XHRcdFx0XHQuc3RlcCgpXHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb25EYXRhID0gdGhpcy5hbmltYXRpb24uZXhwb3J0KClcclxuXHRcdFx0fSxcclxuXHRcdFx0YWxsSW5RdWV1ZTogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb24ucm90YXRlKE1hdGgucmFuZG9tKCkgKiA3MjAgLSAzNjApLnN0ZXAoKVxyXG5cdFx0XHRcdFx0LnNjYWxlKE1hdGgucmFuZG9tKCkgKiAyKS5zdGVwKClcclxuXHRcdFx0XHRcdC50cmFuc2xhdGUoTWF0aC5yYW5kb20oKSAqIDEwMCAtIDUwLCBNYXRoLnJhbmRvbSgpICogMTAwIC0gNTApLnN0ZXAoKVxyXG5cdFx0XHRcdFx0LnNrZXcoTWF0aC5yYW5kb20oKSAqIDkwLCBNYXRoLnJhbmRvbSgpICogOTApLnN0ZXAoKVxyXG5cdFx0XHRcdHRoaXMuYW5pbWF0aW9uRGF0YSA9IHRoaXMuYW5pbWF0aW9uLmV4cG9ydCgpXHJcblx0XHRcdH0sXHJcblx0XHRcdHJlc2V0OiBmdW5jdGlvbigpIHtcclxuXHRcdFx0XHR0aGlzLmFuaW1hdGlvbi5yb3RhdGUoMCwgMClcclxuXHRcdFx0XHRcdC5zY2FsZSgxKVxyXG5cdFx0XHRcdFx0LnRyYW5zbGF0ZSgwLCAwKVxyXG5cdFx0XHRcdFx0LnNrZXcoMCwgMClcclxuXHRcdFx0XHRcdC5zdGVwKHtcclxuXHRcdFx0XHRcdFx0ZHVyYXRpb246IDBcclxuXHRcdFx0XHRcdH0pXHJcblx0XHRcdFx0dGhpcy5hbmltYXRpb25EYXRhID0gdGhpcy5hbmltYXRpb24uZXhwb3J0KClcclxuXHRcdFx0fVxyXG5cdFx0fVxyXG5cdH1cclxuPC9zY3JpcHQ+XHJcblxyXG48c3R5bGU+XHJcblx0LmFuaW1hdGlvbi1lbGVtZW50LXdyYXBwZXIge1xyXG5cdFx0ZGlzcGxheTogZmxleDtcclxuXHRcdHdpZHRoOiAxMDAlO1xyXG5cdFx0cGFkZGluZy10b3A6IDE1MHJweDtcclxuXHRcdHBhZGRpbmctYm90dG9tOiAxNTBycHg7XHJcblx0XHRqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHRcdG92ZXJmbG93OiBoaWRkZW47XHJcblx0XHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xyXG5cdH1cclxuXHJcblx0LmFuaW1hdGlvbi1lbGVtZW50IHtcclxuXHRcdHdpZHRoOiAyMDBycHg7XHJcblx0XHRoZWlnaHQ6IDIwMHJweDtcclxuXHRcdGJhY2tncm91bmQtY29sb3I6ICMxQUFEMTk7XHJcblx0fVxyXG5cclxuXHQuYW5pbWF0aW9uLWJ1dHRvbnMge1xyXG5cdFx0cGFkZGluZzogMzBycHggMDtcclxuXHRcdHdpZHRoOiAxMDAlO1xyXG5cdH1cclxuXHJcblx0LmFuaW1hdGlvbi1idXR0b24ge1xyXG5cdFx0ZmxvYXQ6IGxlZnQ7XHJcblx0XHR3aWR0aDogNDQlO1xyXG5cdFx0bWFyZ2luOiAxNXJweCAzJTtcclxuXHR9XHJcblxyXG5cdC5hbmltYXRpb24tYnV0dG9uLXJlc2V0IHtcclxuXHRcdHdpZHRoOiA5NCU7XHJcblx0fVxyXG48L3N0eWxlPlxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///6\n");
 
 /***/ }),
 /* 7 */
@@ -315,9 +315,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 8 */
-/*!*****************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/testNetSpeed/testNetSpeed.vue?mpType=page ***!
-  \*****************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/testNetSpeed/testNetSpeed.vue?mpType=page ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -326,9 +326,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 
 /***/ }),
 /* 9 */
-/*!***********************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=template&id=4fa101d6&mpType=page ***!
-  \***********************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=template&id=4fa101d6&mpType=page ***!
+  \****************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -347,9 +347,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 10 */
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=template&id=4fa101d6&mpType=page ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=template&id=4fa101d6&mpType=page ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,9 +429,9 @@ render._withStripped = true
 
 /***/ }),
 /* 11 */
-/*!***********************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue ***!
-  \***********************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -440,9 +440,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _qiu
 
 /***/ }),
 /* 12 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM2NTA1LCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjUwNTA5fX0%3D& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM2NTA1LCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjUwNTA5fX0%3D& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -461,9 +461,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 13 */
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM2NTA1LCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjUwNTA5fX0%3D& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=template&id=fe947b98&scoped=true&filter-modules=eyJyZGNoYXJ0cyI6eyJ0eXBlIjoicmVuZGVyanMiLCJjb250ZW50IjoiIiwic3RhcnQiOjM2NTA1LCJhdHRycyI6eyJtb2R1bGUiOiJyZGNoYXJ0cyIsImxhbmciOiJqcyJ9LCJlbmQiOjUwNTA5fX0%3D& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -611,9 +611,9 @@ render._withStripped = true
 
 /***/ }),
 /* 14 */
-/*!***************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue ***!
-  \***************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -622,9 +622,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _qiu
 
 /***/ }),
 /* 15 */
-/*!**********************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=template&id=1c4fd998& ***!
-  \**********************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=template&id=1c4fd998& ***!
+  \***************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -643,9 +643,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 16 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=template&id=1c4fd998& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=template&id=1c4fd998& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -690,9 +690,9 @@ render._withStripped = true
 
 /***/ }),
 /* 17 */
-/*!****************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -701,9 +701,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 18 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/qiun-loading.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -712,9 +712,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 19 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -723,9 +723,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 /***/ }),
 /* 20 */
-/*!******************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=template&id=e4e769ee&scoped=true& ***!
-  \******************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=template&id=e4e769ee&scoped=true& ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -744,9 +744,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 21 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=template&id=e4e769ee&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=template&id=e4e769ee&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -792,9 +792,9 @@ render._withStripped = true
 
 /***/ }),
 /* 22 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -803,9 +803,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 23 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading1.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -814,9 +814,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 24 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -825,9 +825,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 /***/ }),
 /* 25 */
-/*!******************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=template&id=e4cb3aec&scoped=true& ***!
-  \******************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=template&id=e4cb3aec&scoped=true& ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -846,9 +846,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 26 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=template&id=e4cb3aec&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=template&id=e4cb3aec&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -894,9 +894,9 @@ render._withStripped = true
 
 /***/ }),
 /* 27 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -905,9 +905,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 28 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading2.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -916,9 +916,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 29 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -927,9 +927,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 /***/ }),
 /* 30 */
-/*!******************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=template&id=e4af0bea&scoped=true& ***!
-  \******************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=template&id=e4af0bea&scoped=true& ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -948,9 +948,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 31 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=template&id=e4af0bea&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=template&id=e4af0bea&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -996,9 +996,9 @@ render._withStripped = true
 
 /***/ }),
 /* 32 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1007,9 +1007,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 33 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading3.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1018,9 +1018,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 34 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1029,9 +1029,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 /***/ }),
 /* 35 */
-/*!******************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=template&id=e492dce8&scoped=true& ***!
-  \******************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=template&id=e492dce8&scoped=true& ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1050,9 +1050,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 36 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=template&id=e492dce8&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=template&id=e492dce8&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1098,9 +1098,9 @@ render._withStripped = true
 
 /***/ }),
 /* 37 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1109,9 +1109,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 38 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading4.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1120,9 +1120,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 39 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1131,9 +1131,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _loa
 
 /***/ }),
 /* 40 */
-/*!******************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=template&id=e476ade6&scoped=true& ***!
-  \******************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=template&id=e476ade6&scoped=true& ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1152,9 +1152,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 41 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=template&id=e476ade6&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=template&id=e476ade6&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1200,9 +1200,9 @@ render._withStripped = true
 
 /***/ }),
 /* 42 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1211,9 +1211,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 43 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-loading/loading5.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1222,9 +1222,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 44 */
-/*!***********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue ***!
-  \***********************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue ***!
+  \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1233,9 +1233,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _qiu
 
 /***/ }),
 /* 45 */
-/*!******************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
-  \******************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
+  \***********************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1254,9 +1254,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 46 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1303,9 +1303,9 @@ render._withStripped = true
 
 /***/ }),
 /* 47 */
-/*!************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1314,9 +1314,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 48 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1325,9 +1325,9 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 
 /***/ }),
 /* 49 */
-/*!************************************************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1336,9 +1336,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 50 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3658,9 +3658,9 @@ function initVueI18n(messages, fallbackLocale = 'en', locale) {
 
 /***/ }),
 /* 61 */
-/*!********************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages.json?{"type":"stat"} ***!
-  \********************************************************************/
+/*!*************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages.json?{"type":"stat"} ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3763,9 +3763,9 @@ function formatLog () {
 
 /***/ }),
 /* 63 */
-/*!**************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/u-charts.js ***!
-  \**************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/u-charts.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3774,9 +3774,9 @@ eval("/* WEBPACK VAR INJECTION */(function(__f__) {/*\r\n * uCharts®\r\n * 高�
 
 /***/ }),
 /* 64 */
-/*!********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/config-ucharts.js ***!
-  \********************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/config-ucharts.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3784,9 +3784,9 @@ eval("/*\r\n * uCharts®\r\n * 高性能跨平台图表库，支持H5、APP、�
 
 /***/ }),
 /* 65 */
-/*!********************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/config-echarts.js ***!
-  \********************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/uni_modules/qiun-data-charts/js_sdk/u-charts/config-echarts.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3794,9 +3794,9 @@ eval("/*\r\n * uCharts®\r\n * 高性能跨平台图表库，支持H5、APP、�
 
 /***/ }),
 /* 66 */
-/*!*****************************************************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=script&lang=js&mpType=page ***!
-  \*****************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=script&lang=js&mpType=page ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3805,20 +3805,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 67 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=script&lang=js&mpType=page ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/pages/testNetSpeed/testNetSpeed.vue?vue&type=script&lang=js&mpType=page ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(__f__) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\nvar _uCharts = _interopRequireDefault(__webpack_require__(/*! @/plugins/stan-ucharts/u-charts/u-charts.js */ 68));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default = { data: function data() {return { beforeTime: '', afterTime: '', netSpeed: '', fileSize: '22', chartData: { \"categories\": [{\n          \"value\": 0.2,\n          \"color\": \"#1890ff\" },\n        {\n          \"value\": 0.8,\n          \"color\": \"#2fc25b\" },\n        {\n          \"value\": 1,\n          \"color\": \"#f04864\" }],\n\n        \"series\": [{\n          \"name\": \"完成率\",\n          \"data\": 0.8 }] },\n\n\n      opts: {\n        title: {\n          name: '0Mb/s',\n          color: '#2fc25b',\n          fontSize: 25,\n          offsetY: 50 },\n\n        subtitle: {\n          name: '实时网速',\n          color: '#666666',\n          fontSize: 15,\n          offsetY: -50 } } };\n\n\n\n  },\n  components: {\n    uCharts: _uCharts.default },\n\n  onLoad: function onLoad(e) {\n    this.init();\n  },\n  onReady: function onReady() {},\n  methods: {\n    init: function init() {\n\n    },\n    testNet: function testNet() {var _this = this;\n      uni.showLoading({\n        title: '测试中' });\n\n      this.beforeTime = new Date().getTime();\n      var self = this;\n      var downloadTask = uni.downloadFile({\n        url: \"http://121.41.224.54:8080/5.13.rar\",\n        success: function success(res) {\n          uni.hideLoading();\n          uni.getFileInfo({\n            filePath: res.tempFilePath,\n            success: function success(resItem) {\n              _this.afterTime = new Date().getTime();\n              _this.netSpeed = _this.toDecimal2(resItem.size / 1024 / 1024 / ((\n              _this.afterTime -\n              _this.beforeTime) / 1000).toFixed(2));\n              _this.netSpeed = _this.netSpeed > 1 ? _this.netSpeed + 'Mb/s' :\n              _this.netSpeed * 1024 + 'Kb/s';\n              _this.opts.title.name = _this.netSpeed;\n            } });\n\n        },\n        fail: function fail(err) {\n          __f__(\"log\", 'downloadFile fail, err is:', err, \" at pages/testNetSpeed/testNetSpeed.vue:86\");\n        },\n        complete: function complete() {} });\n\n      // downloadTask.onProgressUpdate((res) => {\n      // \t// console.log('下载进度' + res.progress);\n      // \t// console.log('已经下载的数据长度' + res.totalBytesWritten);\n      // \t// console.log('预期需要下载的数据总长度' + res.totalBytesExpectedToWrite);\n      // \tif (res.totalBytesWritten == res.totalBytesExpectedToWrite) {\n      // \t\tthis.afterTime = new Date().getTime()\n      // \t\tconsole.log(this.beforeTime)\n      // \t\tconsole.log(this.afterTime)\n      // \t\tthis.netSpeed=res.totalBytesExpectedToWrite/1024/1024/((this.afterTime - this.beforeTime)/1000)\n      // \t\tconsole.log((this.afterTime - this.beforeTime) / 1000 / res.totalBytesExpectedToWrite)\n      // \t}\n\n      // \t// 测试条件，取消下载任务。\n      // \t// if (res.progress > 50) {\n      // \t// \tdownloadTask.abort();\n      // \t// }\n      // })\n\n    },\n    //2.强制保留2位小数，如：2，会在2后面补上00.即2.00\n    toDecimal2: function toDecimal2(x) {\n      var f = parseFloat(x);\n      if (isNaN(f)) {\n        return false;\n      }\n      var f = Math.round(x * 100) / 100;\n      var s = f.toString();\n      var rs = s.indexOf('.');\n      if (rs < 0) {\n        rs = s.length;\n        s += '.';\n      }\n      while (s.length <= rs + 2) {\n        s += '0';\n      }\n      return s;\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/format-log.js */ 62)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvdGVzdE5ldFNwZWVkL3Rlc3ROZXRTcGVlZC52dWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQVVBLGtIOzs7Ozs7Ozs7ZUFDQSxFQUNBLElBREEsa0JBQ0EsQ0FDQSxTQUNBLGNBREEsRUFFQSxhQUZBLEVBR0EsWUFIQSxFQUlBLGNBSkEsRUFLQSxhQUNBO0FBQ0Esc0JBREE7QUFFQSw0QkFGQTtBQUdBO0FBQ0Esc0JBREE7QUFFQSw0QkFGQSxFQUhBO0FBTUE7QUFDQSxvQkFEQTtBQUVBLDRCQUZBLEVBTkEsQ0FEQTs7QUFXQTtBQUNBLHVCQURBO0FBRUEscUJBRkEsR0FYQSxFQUxBOzs7QUFxQkE7QUFDQTtBQUNBLHVCQURBO0FBRUEsMEJBRkE7QUFHQSxzQkFIQTtBQUlBLHFCQUpBLEVBREE7O0FBT0E7QUFDQSxzQkFEQTtBQUVBLDBCQUZBO0FBR0Esc0JBSEE7QUFJQSxzQkFKQSxFQVBBLEVBckJBOzs7O0FBb0NBLEdBdENBO0FBdUNBO0FBQ0EsNkJBREEsRUF2Q0E7O0FBMENBLFFBMUNBLGtCQTBDQSxDQTFDQSxFQTBDQTtBQUNBO0FBQ0EsR0E1Q0E7QUE2Q0EsU0E3Q0EscUJBNkNBLEVBN0NBO0FBOENBO0FBQ0EsUUFEQSxrQkFDQTs7QUFFQSxLQUhBO0FBSUE7QUFDQTtBQUNBLG9CQURBOztBQUdBO0FBQ0E7QUFDQTtBQUNBLGlEQURBO0FBRUE7QUFDQTtBQUNBO0FBQ0Esc0NBREE7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUZBLElBRUEsSUFGQSxFQUVBLE9BRkEsQ0FFQSxDQUZBO0FBR0E7QUFDQSw0Q0FEQTtBQUVBO0FBQ0EsYUFWQTs7QUFZQSxTQWhCQTtBQWlCQTtBQUNBO0FBQ0EsU0FuQkE7QUFvQkEsd0NBcEJBOztBQXNCQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsS0FsREE7QUFtREE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBcEVBLEVBOUNBLEUiLCJmaWxlIjoiNjcuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XHJcblx0PHZpZXcgY2xhc3M9XCJjaGFydHMtYm94XCI+XHJcblx0XHQ8cWl1bi1kYXRhLWNoYXJ0cyB0eXBlPVwiZ2F1Z2VcIiA6b3B0cz1cIm9wdHNcIiA6Y2hhcnREYXRhPVwiY2hhcnREYXRhXCIgYmFja2dyb3VuZD1cIm5vbmVcIiAvPlxyXG5cdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwidGVzdE5ldFwiPueCueWHu+W8gOWni+a1i+mAnzwvYnV0dG9uPjxicj48YnI+PGJyPlxyXG5cdFx0PGJ1dHRvbiBjbGFzcz1cIm5ldFNwZWVkLWJ1dHRvblwiIHYtaWY9XCJuZXRTcGVlZFwiPnt7bmV0U3BlZWR9fTwvYnV0dG9uPlxyXG5cdFx0XHJcblx0PC92aWV3PlxyXG48L3RlbXBsYXRlPlxyXG5cclxuPHNjcmlwdD5cclxuXHRpbXBvcnQgdUNoYXJ0cyBmcm9tICdAL3BsdWdpbnMvc3Rhbi11Y2hhcnRzL3UtY2hhcnRzL3UtY2hhcnRzLmpzJztcclxuXHRleHBvcnQgZGVmYXVsdCB7XHJcblx0XHRkYXRhKCkge1xyXG5cdFx0XHRyZXR1cm4ge1xyXG5cdFx0XHRcdGJlZm9yZVRpbWU6ICcnLFxyXG5cdFx0XHRcdGFmdGVyVGltZTogJycsXHJcblx0XHRcdFx0bmV0U3BlZWQ6ICcnLFxyXG5cdFx0XHRcdGZpbGVTaXplOiAnMjInLFxyXG5cdFx0XHRcdGNoYXJ0RGF0YToge1xyXG5cdFx0XHRcdFx0XCJjYXRlZ29yaWVzXCI6IFt7XHJcblx0XHRcdFx0XHRcdFwidmFsdWVcIjogMC4yLFxyXG5cdFx0XHRcdFx0XHRcImNvbG9yXCI6IFwiIzE4OTBmZlwiXHJcblx0XHRcdFx0XHR9LCB7XHJcblx0XHRcdFx0XHRcdFwidmFsdWVcIjogMC44LFxyXG5cdFx0XHRcdFx0XHRcImNvbG9yXCI6IFwiIzJmYzI1YlwiXHJcblx0XHRcdFx0XHR9LCB7XHJcblx0XHRcdFx0XHRcdFwidmFsdWVcIjogMSxcclxuXHRcdFx0XHRcdFx0XCJjb2xvclwiOiBcIiNmMDQ4NjRcIlxyXG5cdFx0XHRcdFx0fV0sXHJcblx0XHRcdFx0XHRcInNlcmllc1wiOiBbe1xyXG5cdFx0XHRcdFx0XHRcIm5hbWVcIjogXCLlrozmiJDnjodcIixcclxuXHRcdFx0XHRcdFx0XCJkYXRhXCI6IDAuOFxyXG5cdFx0XHRcdFx0fV1cclxuXHRcdFx0XHR9LFxyXG5cdFx0XHRcdG9wdHM6IHtcclxuXHRcdFx0XHRcdHRpdGxlOiB7XHJcblx0XHRcdFx0XHRcdG5hbWU6ICcwTWIvcycsXHJcblx0XHRcdFx0XHRcdGNvbG9yOiAnIzJmYzI1YicsXHJcblx0XHRcdFx0XHRcdGZvbnRTaXplOiAyNSxcclxuXHRcdFx0XHRcdFx0b2Zmc2V0WTogNTBcclxuXHRcdFx0XHRcdH0sXHJcblx0XHRcdFx0XHRzdWJ0aXRsZToge1xyXG5cdFx0XHRcdFx0XHRuYW1lOiAn5a6e5pe2572R6YCfJyxcclxuXHRcdFx0XHRcdFx0Y29sb3I6ICcjNjY2NjY2JyxcclxuXHRcdFx0XHRcdFx0Zm9udFNpemU6IDE1LFxyXG5cdFx0XHRcdFx0XHRvZmZzZXRZOiAtNTBcclxuXHRcdFx0XHRcdH1cclxuXHRcdFx0XHR9XHJcblx0XHRcdH1cclxuXHRcdH0sXHJcblx0XHRjb21wb25lbnRzOiB7XHJcblx0XHRcdHVDaGFydHNcclxuXHRcdH0sXHJcblx0XHRvbkxvYWQoZSkge1xyXG5cdFx0XHR0aGlzLmluaXQoKVxyXG5cdFx0fSxcclxuXHRcdG9uUmVhZHkoKSB7fSxcclxuXHRcdG1ldGhvZHM6IHtcclxuXHRcdFx0aW5pdCgpIHtcclxuXHJcblx0XHRcdH0sXHJcblx0XHRcdHRlc3ROZXQ6IGZ1bmN0aW9uKCkge1xyXG5cdFx0XHRcdHVuaS5zaG93TG9hZGluZyh7XHJcblx0XHRcdFx0XHR0aXRsZTogJ+a1i+ivleS4rSdcclxuXHRcdFx0XHR9KVxyXG5cdFx0XHRcdHRoaXMuYmVmb3JlVGltZSA9IG5ldyBEYXRlKCkuZ2V0VGltZSgpXHJcblx0XHRcdFx0dmFyIHNlbGYgPSB0aGlzXHJcblx0XHRcdFx0Y29uc3QgZG93bmxvYWRUYXNrID0gdW5pLmRvd25sb2FkRmlsZSh7XHJcblx0XHRcdFx0XHR1cmw6IFwiaHR0cDovLzEyMS40MS4yMjQuNTQ6ODA4MC81LjEzLnJhclwiLFxyXG5cdFx0XHRcdFx0c3VjY2VzczogKHJlcykgPT4ge1xyXG5cdFx0XHRcdFx0XHR1bmkuaGlkZUxvYWRpbmcoKTtcclxuXHRcdFx0XHRcdFx0dW5pLmdldEZpbGVJbmZvKHtcclxuXHRcdFx0XHRcdFx0XHRmaWxlUGF0aDogcmVzLnRlbXBGaWxlUGF0aCxcclxuXHRcdFx0XHRcdFx0XHRzdWNjZXNzOiAocmVzSXRlbSkgPT4ge1xyXG5cdFx0XHRcdFx0XHRcdFx0dGhpcy5hZnRlclRpbWUgPSBuZXcgRGF0ZSgpLmdldFRpbWUoKVxyXG5cdFx0XHRcdFx0XHRcdFx0dGhpcy5uZXRTcGVlZCA9IHRoaXMudG9EZWNpbWFsMihyZXNJdGVtLnNpemUgLyAxMDI0IC8gMTAyNCAvICgoXHJcblx0XHRcdFx0XHRcdFx0XHRcdHRoaXMuYWZ0ZXJUaW1lIC1cclxuXHRcdFx0XHRcdFx0XHRcdFx0dGhpcy5iZWZvcmVUaW1lKSAvIDEwMDApLnRvRml4ZWQoMikpXHJcblx0XHRcdFx0XHRcdFx0XHR0aGlzLm5ldFNwZWVkID0gdGhpcy5uZXRTcGVlZCA+IDEgPyB0aGlzLm5ldFNwZWVkICsgJ01iL3MnIDpcclxuXHRcdFx0XHRcdFx0XHRcdFx0dGhpcy5uZXRTcGVlZCAqIDEwMjQgKyAnS2IvcydcclxuXHRcdFx0XHRcdFx0XHRcdHRoaXMub3B0cy50aXRsZS5uYW1lID0gdGhpcy5uZXRTcGVlZFxyXG5cdFx0XHRcdFx0XHRcdH1cclxuXHRcdFx0XHRcdFx0fSlcclxuXHRcdFx0XHRcdH0sXHJcblx0XHRcdFx0XHRmYWlsOiAoZXJyKSA9PiB7XHJcblx0XHRcdFx0XHRcdGNvbnNvbGUubG9nKCdkb3dubG9hZEZpbGUgZmFpbCwgZXJyIGlzOicsIGVycilcclxuXHRcdFx0XHRcdH0sXHJcblx0XHRcdFx0XHRjb21wbGV0ZTogKCkgPT4ge31cclxuXHRcdFx0XHR9KVxyXG5cdFx0XHRcdC8vIGRvd25sb2FkVGFzay5vblByb2dyZXNzVXBkYXRlKChyZXMpID0+IHtcclxuXHRcdFx0XHQvLyBcdC8vIGNvbnNvbGUubG9nKCfkuIvovb3ov5vluqYnICsgcmVzLnByb2dyZXNzKTtcclxuXHRcdFx0XHQvLyBcdC8vIGNvbnNvbGUubG9nKCflt7Lnu4/kuIvovb3nmoTmlbDmja7plb/luqYnICsgcmVzLnRvdGFsQnl0ZXNXcml0dGVuKTtcclxuXHRcdFx0XHQvLyBcdC8vIGNvbnNvbGUubG9nKCfpooTmnJ/pnIDopoHkuIvovb3nmoTmlbDmja7mgLvplb/luqYnICsgcmVzLnRvdGFsQnl0ZXNFeHBlY3RlZFRvV3JpdGUpO1xyXG5cdFx0XHRcdC8vIFx0aWYgKHJlcy50b3RhbEJ5dGVzV3JpdHRlbiA9PSByZXMudG90YWxCeXRlc0V4cGVjdGVkVG9Xcml0ZSkge1xyXG5cdFx0XHRcdC8vIFx0XHR0aGlzLmFmdGVyVGltZSA9IG5ldyBEYXRlKCkuZ2V0VGltZSgpXHJcblx0XHRcdFx0Ly8gXHRcdGNvbnNvbGUubG9nKHRoaXMuYmVmb3JlVGltZSlcclxuXHRcdFx0XHQvLyBcdFx0Y29uc29sZS5sb2codGhpcy5hZnRlclRpbWUpXHJcblx0XHRcdFx0Ly8gXHRcdHRoaXMubmV0U3BlZWQ9cmVzLnRvdGFsQnl0ZXNFeHBlY3RlZFRvV3JpdGUvMTAyNC8xMDI0LygodGhpcy5hZnRlclRpbWUgLSB0aGlzLmJlZm9yZVRpbWUpLzEwMDApXHJcblx0XHRcdFx0Ly8gXHRcdGNvbnNvbGUubG9nKCh0aGlzLmFmdGVyVGltZSAtIHRoaXMuYmVmb3JlVGltZSkgLyAxMDAwIC8gcmVzLnRvdGFsQnl0ZXNFeHBlY3RlZFRvV3JpdGUpXHJcblx0XHRcdFx0Ly8gXHR9XHJcblxyXG5cdFx0XHRcdC8vIFx0Ly8g5rWL6K+V5p2h5Lu277yM5Y+W5raI5LiL6L295Lu75Yqh44CCXHJcblx0XHRcdFx0Ly8gXHQvLyBpZiAocmVzLnByb2dyZXNzID4gNTApIHtcclxuXHRcdFx0XHQvLyBcdC8vIFx0ZG93bmxvYWRUYXNrLmFib3J0KCk7XHJcblx0XHRcdFx0Ly8gXHQvLyB9XHJcblx0XHRcdFx0Ly8gfSlcclxuXHJcblx0XHRcdH0sXHJcblx0XHRcdC8vMi7lvLrliLbkv53nlZky5L2N5bCP5pWw77yM5aaC77yaMu+8jOS8muWcqDLlkI7pnaLooaXkuIowMC7ljbMyLjAwXHJcblx0XHRcdHRvRGVjaW1hbDI6IGZ1bmN0aW9uKHgpIHtcclxuXHRcdFx0XHR2YXIgZiA9IHBhcnNlRmxvYXQoeCk7XHJcblx0XHRcdFx0aWYgKGlzTmFOKGYpKSB7XHJcblx0XHRcdFx0XHRyZXR1cm4gZmFsc2U7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdHZhciBmID0gTWF0aC5yb3VuZCh4ICogMTAwKSAvIDEwMDtcclxuXHRcdFx0XHR2YXIgcyA9IGYudG9TdHJpbmcoKTtcclxuXHRcdFx0XHR2YXIgcnMgPSBzLmluZGV4T2YoJy4nKTtcclxuXHRcdFx0XHRpZiAocnMgPCAwKSB7XHJcblx0XHRcdFx0XHRycyA9IHMubGVuZ3RoO1xyXG5cdFx0XHRcdFx0cyArPSAnLic7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdHdoaWxlIChzLmxlbmd0aCA8PSBycyArIDIpIHtcclxuXHRcdFx0XHRcdHMgKz0gJzAnO1xyXG5cdFx0XHRcdH1cclxuXHRcdFx0XHRyZXR1cm4gcztcclxuXHRcdFx0fVxyXG5cdFx0fVxyXG5cdH1cclxuPC9zY3JpcHQ+XHJcblxyXG48c3R5bGU+XHJcblx0LmNoYXJ0cy1ib3gge1xyXG5cdFx0d2lkdGg6IDEwMCU7XHJcblx0XHRoZWlnaHQ6IDMwMHB4O1xyXG5cdH1cclxuXHJcblx0LmFuaW1hdGlvbi1idXR0b24ge1xyXG5cdFx0d2lkdGg6IDk0JTtcclxuXHR9XHJcblx0Lm5ldFNwZWVkLWJ1dHRvbiB7XHJcblx0XHR3aWR0aDogNDAlO1xyXG5cdH1cclxuXHRcclxuPC9zdHlsZT5cbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///67\n");
+eval("/* WEBPACK VAR INJECTION */(function(__f__) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\nvar _uCharts = _interopRequireDefault(__webpack_require__(/*! @/plugins/stan-ucharts/u-charts/u-charts.js */ 68));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //\n//\n//\n//\n//\n//\n//\n//\n//\nvar _default = { data: function data() {return { beforeTime: '', afterTime: '', netSpeed: '', fileSize: '22', chartData: { \"categories\": [{\n          \"value\": 0.2,\n          \"color\": \"#1890ff\" },\n        {\n          \"value\": 0.8,\n          \"color\": \"#2fc25b\" },\n        {\n          \"value\": 1,\n          \"color\": \"#f04864\" }],\n\n        \"series\": [{\n          \"name\": \"完成率\",\n          \"data\": 0.8 }] },\n\n\n      opts: {\n        title: {\n          name: '0Mb/s',\n          color: '#2fc25b',\n          fontSize: 25,\n          offsetY: 50 },\n\n        subtitle: {\n          name: '实时网速',\n          color: '#666666',\n          fontSize: 15,\n          offsetY: -50 } } };\n\n\n\n  },\n  components: {\n    uCharts: _uCharts.default },\n\n  onLoad: function onLoad(e) {\n    this.init();\n  },\n  onReady: function onReady() {},\n  methods: {\n    init: function init() {\n\n    },\n    testNet: function testNet() {var _this = this;\n      uni.showLoading({\n        title: '测试中' });\n\n      this.beforeTime = new Date().getTime();\n      var self = this;\n      var downloadTask = uni.downloadFile({\n        url: \"http://121.41.224.54:8080/5.13.rar\",\n        success: function success(res) {\n          uni.hideLoading();\n          uni.getFileInfo({\n            filePath: res.tempFilePath,\n            success: function success(resItem) {\n              _this.afterTime = new Date().getTime();\n              _this.netSpeed = _this.toDecimal2(resItem.size / 1024 / 1024 / ((\n              _this.afterTime -\n              _this.beforeTime) / 1000).toFixed(2));\n              _this.netSpeed = _this.netSpeed > 1 ? _this.netSpeed + 'Mb/s' :\n              _this.netSpeed * 1024 + 'Kb/s';\n              _this.opts.title.name = _this.netSpeed;\n            } });\n\n        },\n        fail: function fail(err) {\n          __f__(\"log\", 'downloadFile fail, err is:', err, \" at pages/testNetSpeed/testNetSpeed.vue:86\");\n        },\n        complete: function complete() {} });\n\n      // downloadTask.onProgressUpdate((res) => {\n      // \t// console.log('下载进度' + res.progress);\n      // \t// console.log('已经下载的数据长度' + res.totalBytesWritten);\n      // \t// console.log('预期需要下载的数据总长度' + res.totalBytesExpectedToWrite);\n      // \tif (res.totalBytesWritten == res.totalBytesExpectedToWrite) {\n      // \t\tthis.afterTime = new Date().getTime()\n      // \t\tconsole.log(this.beforeTime)\n      // \t\tconsole.log(this.afterTime)\n      // \t\tthis.netSpeed=res.totalBytesExpectedToWrite/1024/1024/((this.afterTime - this.beforeTime)/1000)\n      // \t\tconsole.log((this.afterTime - this.beforeTime) / 1000 / res.totalBytesExpectedToWrite)\n      // \t}\n\n      // \t// 测试条件，取消下载任务。\n      // \t// if (res.progress > 50) {\n      // \t// \tdownloadTask.abort();\n      // \t// }\n      // })\n\n    },\n    //2.强制保留2位小数，如：2，会在2后面补上00.即2.00\n    toDecimal2: function toDecimal2(x) {\n      var f = parseFloat(x);\n      if (isNaN(f)) {\n        return false;\n      }\n      var f = Math.round(x * 100) / 100;\n      var s = f.toString();\n      var rs = s.indexOf('.');\n      if (rs < 0) {\n        rs = s.length;\n        s += '.';\n      }\n      while (s.length <= rs + 2) {\n        s += '0';\n      }\n      return s;\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/format-log.js */ 62)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvdGVzdE5ldFNwZWVkL3Rlc3ROZXRTcGVlZC52dWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQVVBLGtIOzs7Ozs7Ozs7ZUFDQSxFQUNBLElBREEsa0JBQ0EsQ0FDQSxTQUNBLGNBREEsRUFFQSxhQUZBLEVBR0EsWUFIQSxFQUlBLGNBSkEsRUFLQSxhQUNBO0FBQ0Esc0JBREE7QUFFQSw0QkFGQTtBQUdBO0FBQ0Esc0JBREE7QUFFQSw0QkFGQSxFQUhBO0FBTUE7QUFDQSxvQkFEQTtBQUVBLDRCQUZBLEVBTkEsQ0FEQTs7QUFXQTtBQUNBLHVCQURBO0FBRUEscUJBRkEsR0FYQSxFQUxBOzs7QUFxQkE7QUFDQTtBQUNBLHVCQURBO0FBRUEsMEJBRkE7QUFHQSxzQkFIQTtBQUlBLHFCQUpBLEVBREE7O0FBT0E7QUFDQSxzQkFEQTtBQUVBLDBCQUZBO0FBR0Esc0JBSEE7QUFJQSxzQkFKQSxFQVBBLEVBckJBOzs7O0FBb0NBLEdBdENBO0FBdUNBO0FBQ0EsNkJBREEsRUF2Q0E7O0FBMENBLFFBMUNBLGtCQTBDQSxDQTFDQSxFQTBDQTtBQUNBO0FBQ0EsR0E1Q0E7QUE2Q0EsU0E3Q0EscUJBNkNBLEVBN0NBO0FBOENBO0FBQ0EsUUFEQSxrQkFDQTs7QUFFQSxLQUhBO0FBSUE7QUFDQTtBQUNBLG9CQURBOztBQUdBO0FBQ0E7QUFDQTtBQUNBLGlEQURBO0FBRUE7QUFDQTtBQUNBO0FBQ0Esc0NBREE7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLDhCQUZBLElBRUEsSUFGQSxFQUVBLE9BRkEsQ0FFQSxDQUZBO0FBR0E7QUFDQSw0Q0FEQTtBQUVBO0FBQ0EsYUFWQTs7QUFZQSxTQWhCQTtBQWlCQTtBQUNBO0FBQ0EsU0FuQkE7QUFvQkEsd0NBcEJBOztBQXNCQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUEsS0FsREE7QUFtREE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBcEVBLEVBOUNBLEUiLCJmaWxlIjoiNjcuanMiLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XHJcblx0PHZpZXcgY2xhc3M9XCJjaGFydHMtYm94XCI+XHJcblx0XHQ8cWl1bi1kYXRhLWNoYXJ0cyB0eXBlPVwiZ2F1Z2VcIiA6b3B0cz1cIm9wdHNcIiA6Y2hhcnREYXRhPVwiY2hhcnREYXRhXCIgYmFja2dyb3VuZD1cIm5vbmVcIiAvPlxyXG5cdFx0PGJ1dHRvbiBjbGFzcz1cImFuaW1hdGlvbi1idXR0b25cIiBAdGFwPVwidGVzdE5ldFwiPueCueWHu+W8gOWni+a1i+mAnzwvYnV0dG9uPjxicj48YnI+PGJyPlxyXG5cdFx0PGJ1dHRvbiBjbGFzcz1cIm5ldFNwZWVkLWJ1dHRvblwiIHYtaWY9XCJuZXRTcGVlZFwiIHN0eWxlPVwiY29sb3I6IzJmYzI1YiA7XCI+e3tuZXRTcGVlZH19PC9idXR0b24+XHJcblx0XHRcclxuXHQ8L3ZpZXc+XHJcbjwvdGVtcGxhdGU+XHJcblxyXG48c2NyaXB0PlxyXG5cdGltcG9ydCB1Q2hhcnRzIGZyb20gJ0AvcGx1Z2lucy9zdGFuLXVjaGFydHMvdS1jaGFydHMvdS1jaGFydHMuanMnO1xyXG5cdGV4cG9ydCBkZWZhdWx0IHtcclxuXHRcdGRhdGEoKSB7XHJcblx0XHRcdHJldHVybiB7XHJcblx0XHRcdFx0YmVmb3JlVGltZTogJycsXHJcblx0XHRcdFx0YWZ0ZXJUaW1lOiAnJyxcclxuXHRcdFx0XHRuZXRTcGVlZDogJycsXHJcblx0XHRcdFx0ZmlsZVNpemU6ICcyMicsXHJcblx0XHRcdFx0Y2hhcnREYXRhOiB7XHJcblx0XHRcdFx0XHRcImNhdGVnb3JpZXNcIjogW3tcclxuXHRcdFx0XHRcdFx0XCJ2YWx1ZVwiOiAwLjIsXHJcblx0XHRcdFx0XHRcdFwiY29sb3JcIjogXCIjMTg5MGZmXCJcclxuXHRcdFx0XHRcdH0sIHtcclxuXHRcdFx0XHRcdFx0XCJ2YWx1ZVwiOiAwLjgsXHJcblx0XHRcdFx0XHRcdFwiY29sb3JcIjogXCIjMmZjMjViXCJcclxuXHRcdFx0XHRcdH0sIHtcclxuXHRcdFx0XHRcdFx0XCJ2YWx1ZVwiOiAxLFxyXG5cdFx0XHRcdFx0XHRcImNvbG9yXCI6IFwiI2YwNDg2NFwiXHJcblx0XHRcdFx0XHR9XSxcclxuXHRcdFx0XHRcdFwic2VyaWVzXCI6IFt7XHJcblx0XHRcdFx0XHRcdFwibmFtZVwiOiBcIuWujOaIkOeOh1wiLFxyXG5cdFx0XHRcdFx0XHRcImRhdGFcIjogMC44XHJcblx0XHRcdFx0XHR9XVxyXG5cdFx0XHRcdH0sXHJcblx0XHRcdFx0b3B0czoge1xyXG5cdFx0XHRcdFx0dGl0bGU6IHtcclxuXHRcdFx0XHRcdFx0bmFtZTogJzBNYi9zJyxcclxuXHRcdFx0XHRcdFx0Y29sb3I6ICcjMmZjMjViJyxcclxuXHRcdFx0XHRcdFx0Zm9udFNpemU6IDI1LFxyXG5cdFx0XHRcdFx0XHRvZmZzZXRZOiA1MFxyXG5cdFx0XHRcdFx0fSxcclxuXHRcdFx0XHRcdHN1YnRpdGxlOiB7XHJcblx0XHRcdFx0XHRcdG5hbWU6ICflrp7ml7bnvZHpgJ8nLFxyXG5cdFx0XHRcdFx0XHRjb2xvcjogJyM2NjY2NjYnLFxyXG5cdFx0XHRcdFx0XHRmb250U2l6ZTogMTUsXHJcblx0XHRcdFx0XHRcdG9mZnNldFk6IC01MFxyXG5cdFx0XHRcdFx0fVxyXG5cdFx0XHRcdH1cclxuXHRcdFx0fVxyXG5cdFx0fSxcclxuXHRcdGNvbXBvbmVudHM6IHtcclxuXHRcdFx0dUNoYXJ0c1xyXG5cdFx0fSxcclxuXHRcdG9uTG9hZChlKSB7XHJcblx0XHRcdHRoaXMuaW5pdCgpXHJcblx0XHR9LFxyXG5cdFx0b25SZWFkeSgpIHt9LFxyXG5cdFx0bWV0aG9kczoge1xyXG5cdFx0XHRpbml0KCkge1xyXG5cclxuXHRcdFx0fSxcclxuXHRcdFx0dGVzdE5ldDogZnVuY3Rpb24oKSB7XHJcblx0XHRcdFx0dW5pLnNob3dMb2FkaW5nKHtcclxuXHRcdFx0XHRcdHRpdGxlOiAn5rWL6K+V5LitJ1xyXG5cdFx0XHRcdH0pXHJcblx0XHRcdFx0dGhpcy5iZWZvcmVUaW1lID0gbmV3IERhdGUoKS5nZXRUaW1lKClcclxuXHRcdFx0XHR2YXIgc2VsZiA9IHRoaXNcclxuXHRcdFx0XHRjb25zdCBkb3dubG9hZFRhc2sgPSB1bmkuZG93bmxvYWRGaWxlKHtcclxuXHRcdFx0XHRcdHVybDogXCJodHRwOi8vMTIxLjQxLjIyNC41NDo4MDgwLzUuMTMucmFyXCIsXHJcblx0XHRcdFx0XHRzdWNjZXNzOiAocmVzKSA9PiB7XHJcblx0XHRcdFx0XHRcdHVuaS5oaWRlTG9hZGluZygpO1xyXG5cdFx0XHRcdFx0XHR1bmkuZ2V0RmlsZUluZm8oe1xyXG5cdFx0XHRcdFx0XHRcdGZpbGVQYXRoOiByZXMudGVtcEZpbGVQYXRoLFxyXG5cdFx0XHRcdFx0XHRcdHN1Y2Nlc3M6IChyZXNJdGVtKSA9PiB7XHJcblx0XHRcdFx0XHRcdFx0XHR0aGlzLmFmdGVyVGltZSA9IG5ldyBEYXRlKCkuZ2V0VGltZSgpXHJcblx0XHRcdFx0XHRcdFx0XHR0aGlzLm5ldFNwZWVkID0gdGhpcy50b0RlY2ltYWwyKHJlc0l0ZW0uc2l6ZSAvIDEwMjQgLyAxMDI0IC8gKChcclxuXHRcdFx0XHRcdFx0XHRcdFx0dGhpcy5hZnRlclRpbWUgLVxyXG5cdFx0XHRcdFx0XHRcdFx0XHR0aGlzLmJlZm9yZVRpbWUpIC8gMTAwMCkudG9GaXhlZCgyKSlcclxuXHRcdFx0XHRcdFx0XHRcdHRoaXMubmV0U3BlZWQgPSB0aGlzLm5ldFNwZWVkID4gMSA/IHRoaXMubmV0U3BlZWQgKyAnTWIvcycgOlxyXG5cdFx0XHRcdFx0XHRcdFx0XHR0aGlzLm5ldFNwZWVkICogMTAyNCArICdLYi9zJ1xyXG5cdFx0XHRcdFx0XHRcdFx0dGhpcy5vcHRzLnRpdGxlLm5hbWUgPSB0aGlzLm5ldFNwZWVkXHJcblx0XHRcdFx0XHRcdFx0fVxyXG5cdFx0XHRcdFx0XHR9KVxyXG5cdFx0XHRcdFx0fSxcclxuXHRcdFx0XHRcdGZhaWw6IChlcnIpID0+IHtcclxuXHRcdFx0XHRcdFx0Y29uc29sZS5sb2coJ2Rvd25sb2FkRmlsZSBmYWlsLCBlcnIgaXM6JywgZXJyKVxyXG5cdFx0XHRcdFx0fSxcclxuXHRcdFx0XHRcdGNvbXBsZXRlOiAoKSA9PiB7fVxyXG5cdFx0XHRcdH0pXHJcblx0XHRcdFx0Ly8gZG93bmxvYWRUYXNrLm9uUHJvZ3Jlc3NVcGRhdGUoKHJlcykgPT4ge1xyXG5cdFx0XHRcdC8vIFx0Ly8gY29uc29sZS5sb2coJ+S4i+i9vei/m+W6picgKyByZXMucHJvZ3Jlc3MpO1xyXG5cdFx0XHRcdC8vIFx0Ly8gY29uc29sZS5sb2coJ+W3sue7j+S4i+i9veeahOaVsOaNrumVv+W6picgKyByZXMudG90YWxCeXRlc1dyaXR0ZW4pO1xyXG5cdFx0XHRcdC8vIFx0Ly8gY29uc29sZS5sb2coJ+mihOacn+mcgOimgeS4i+i9veeahOaVsOaNruaAu+mVv+W6picgKyByZXMudG90YWxCeXRlc0V4cGVjdGVkVG9Xcml0ZSk7XHJcblx0XHRcdFx0Ly8gXHRpZiAocmVzLnRvdGFsQnl0ZXNXcml0dGVuID09IHJlcy50b3RhbEJ5dGVzRXhwZWN0ZWRUb1dyaXRlKSB7XHJcblx0XHRcdFx0Ly8gXHRcdHRoaXMuYWZ0ZXJUaW1lID0gbmV3IERhdGUoKS5nZXRUaW1lKClcclxuXHRcdFx0XHQvLyBcdFx0Y29uc29sZS5sb2codGhpcy5iZWZvcmVUaW1lKVxyXG5cdFx0XHRcdC8vIFx0XHRjb25zb2xlLmxvZyh0aGlzLmFmdGVyVGltZSlcclxuXHRcdFx0XHQvLyBcdFx0dGhpcy5uZXRTcGVlZD1yZXMudG90YWxCeXRlc0V4cGVjdGVkVG9Xcml0ZS8xMDI0LzEwMjQvKCh0aGlzLmFmdGVyVGltZSAtIHRoaXMuYmVmb3JlVGltZSkvMTAwMClcclxuXHRcdFx0XHQvLyBcdFx0Y29uc29sZS5sb2coKHRoaXMuYWZ0ZXJUaW1lIC0gdGhpcy5iZWZvcmVUaW1lKSAvIDEwMDAgLyByZXMudG90YWxCeXRlc0V4cGVjdGVkVG9Xcml0ZSlcclxuXHRcdFx0XHQvLyBcdH1cclxuXHJcblx0XHRcdFx0Ly8gXHQvLyDmtYvor5XmnaHku7bvvIzlj5bmtojkuIvovb3ku7vliqHjgIJcclxuXHRcdFx0XHQvLyBcdC8vIGlmIChyZXMucHJvZ3Jlc3MgPiA1MCkge1xyXG5cdFx0XHRcdC8vIFx0Ly8gXHRkb3dubG9hZFRhc2suYWJvcnQoKTtcclxuXHRcdFx0XHQvLyBcdC8vIH1cclxuXHRcdFx0XHQvLyB9KVxyXG5cclxuXHRcdFx0fSxcclxuXHRcdFx0Ly8yLuW8uuWItuS/neeVmTLkvY3lsI/mlbDvvIzlpoLvvJoy77yM5Lya5ZyoMuWQjumdouihpeS4ijAwLuWNszIuMDBcclxuXHRcdFx0dG9EZWNpbWFsMjogZnVuY3Rpb24oeCkge1xyXG5cdFx0XHRcdHZhciBmID0gcGFyc2VGbG9hdCh4KTtcclxuXHRcdFx0XHRpZiAoaXNOYU4oZikpIHtcclxuXHRcdFx0XHRcdHJldHVybiBmYWxzZTtcclxuXHRcdFx0XHR9XHJcblx0XHRcdFx0dmFyIGYgPSBNYXRoLnJvdW5kKHggKiAxMDApIC8gMTAwO1xyXG5cdFx0XHRcdHZhciBzID0gZi50b1N0cmluZygpO1xyXG5cdFx0XHRcdHZhciBycyA9IHMuaW5kZXhPZignLicpO1xyXG5cdFx0XHRcdGlmIChycyA8IDApIHtcclxuXHRcdFx0XHRcdHJzID0gcy5sZW5ndGg7XHJcblx0XHRcdFx0XHRzICs9ICcuJztcclxuXHRcdFx0XHR9XHJcblx0XHRcdFx0d2hpbGUgKHMubGVuZ3RoIDw9IHJzICsgMikge1xyXG5cdFx0XHRcdFx0cyArPSAnMCc7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdHJldHVybiBzO1xyXG5cdFx0XHR9XHJcblx0XHR9XHJcblx0fVxyXG48L3NjcmlwdD5cclxuXHJcbjxzdHlsZT5cclxuXHQuY2hhcnRzLWJveCB7XHJcblx0XHR3aWR0aDogMTAwJTtcclxuXHRcdGhlaWdodDogMzAwcHg7XHJcblx0fVxyXG5cclxuXHQuYW5pbWF0aW9uLWJ1dHRvbiB7XHJcblx0XHR3aWR0aDogOTQlO1xyXG5cdH1cclxuXHQubmV0U3BlZWQtYnV0dG9uIHtcclxuXHRcdHdpZHRoOiA0MCU7XHJcblx0fVxyXG5cdFxyXG48L3N0eWxlPlxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///67\n");
 
 /***/ }),
 /* 68 */
-/*!***********************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/plugins/stan-ucharts/u-charts/u-charts.js ***!
-  \***********************************************************************************/
+/*!****************************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/plugins/stan-ucharts/u-charts/u-charts.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3827,9 +3827,9 @@ eval("/* WEBPACK VAR INJECTION */(function(__f__) {/*\r\n * uCharts v1.9.3.20190
 
 /***/ }),
 /* 69 */
-/*!*************************************************!*\
-  !*** E:/project/echartstest/smallTools/App.vue ***!
-  \*************************************************/
+/*!******************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/App.vue ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3838,9 +3838,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App
 
 /***/ }),
 /* 70 */
-/*!**************************************************************************!*\
-  !*** E:/project/echartstest/smallTools/App.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
+/*!*******************************************************************************!*\
+  !*** E:/project/vueAndspringDemo/smallTools/App.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3849,9 +3849,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _D_d
 
 /***/ }),
 /* 71 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/echartstest/smallTools/App.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!E:/project/vueAndspringDemo/smallTools/App.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
