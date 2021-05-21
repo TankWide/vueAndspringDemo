@@ -1,9 +1,9 @@
 <template>
 	<view class="charts-box">
 		<qiun-data-charts type="gauge" :opts="opts" :chartData="chartData" background="none" />
+		<view class="uni-h2 uni-common-mt animation-button">网络状态：{{networkType}}</view><br><br>
 		<button class="animation-button" @tap="testNet">点击开始测速</button><br><br><br>
 		<button class="netSpeed-button" v-if="netSpeed" style="color:#2fc25b ;">{{netSpeed}}</button>
-		
 	</view>
 </template>
 
@@ -12,6 +12,7 @@
 	export default {
 		data() {
 			return {
+				networkType: '',
 				beforeTime: '',
 				afterTime: '',
 				netSpeed: '',
@@ -57,7 +58,21 @@
 		onReady() {},
 		methods: {
 			init() {
-
+				this.getNetworkType()
+			},
+			getNetworkType: function() {
+				uni.getNetworkType({
+					success: (res) => {
+						console.log(res)
+						this.networkType = res.subtype || res.networkType
+					},
+					fail: () => {
+						uni.showModal({
+							content: '获取失败！',
+							showCancel: false
+						})
+					}
+				})
 			},
 			testNet: function() {
 				uni.showLoading({
@@ -132,13 +147,14 @@
 	.charts-box {
 		width: 100%;
 		height: 300px;
+		text-align: center;
 	}
 
 	.animation-button {
 		width: 94%;
 	}
+
 	.netSpeed-button {
 		width: 40%;
 	}
-	
 </style>

@@ -1102,11 +1102,16 @@ var render = function() {
     { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
     [
       _c("qiun-data-charts", { attrs: { _i: 1 } }),
+      _c("v-uni-view", { staticClass: _vm._$g(2, "sc"), attrs: { _i: 2 } }, [
+        _vm._v("网络状态：" + _vm._$g(2, "t0-0"))
+      ]),
+      _c("br", { attrs: { _i: 3 } }),
+      _c("br", { attrs: { _i: 4 } }),
       _c(
         "v-uni-button",
         {
-          staticClass: _vm._$g(2, "sc"),
-          attrs: { _i: 2 },
+          staticClass: _vm._$g(5, "sc"),
+          attrs: { _i: 5 },
           on: {
             click: function($event) {
               return _vm.$handleViewEvent($event)
@@ -1115,18 +1120,18 @@ var render = function() {
         },
         [_vm._v("点击开始测速")]
       ),
-      _c("br", { attrs: { _i: 3 } }),
-      _c("br", { attrs: { _i: 4 } }),
-      _c("br", { attrs: { _i: 5 } }),
-      _vm._$g(6, "i")
+      _c("br", { attrs: { _i: 6 } }),
+      _c("br", { attrs: { _i: 7 } }),
+      _c("br", { attrs: { _i: 8 } }),
+      _vm._$g(9, "i")
         ? _c(
             "v-uni-button",
             {
-              staticClass: _vm._$g(6, "sc"),
+              staticClass: _vm._$g(9, "sc"),
               staticStyle: { color: "#2fc25b" },
-              attrs: { _i: 6 }
+              attrs: { _i: 9 }
             },
-            [_vm._v(_vm._$g(6, "t0-0"))]
+            [_vm._v(_vm._$g(9, "t0-0"))]
           )
         : _vm._e()
     ],
@@ -16229,7 +16234,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.charts-box {\n\twidth: 100%;\n\theight: 300px;\n}\n.animation-button {\n\twidth: 94%;\n}\n.netSpeed-button {\n\twidth: 40%;\n}\n\n", ""]);
+exports.push([module.i, "\n.charts-box {\n\twidth: 100%;\n\theight: 300px;\n\ttext-align: center;\n}\n.animation-button {\n\twidth: 94%;\n}\n.netSpeed-button {\n\twidth: 40%;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

@@ -8,7 +8,7 @@
 	{
 		"path": "pages/testNetSpeed/testNetSpeed",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "网络测速"
 		}
 	}],
 	"globalStyle": {
