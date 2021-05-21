@@ -18,33 +18,21 @@
       type="primary"
       icon="el-icon-upload"
       style="position: absolute; bottom: 15px; margin-left: 40px"
-      @click="imagecropperShow = true"
+      @click="imagecropperShows"
     >
       Change Avatar
     </el-button>
-
-    <image-cropper
-      v-show="imagecropperShow"
-      :key="imagecropperKey"
-      :width="300"
-      :height="300"
-      url="https://httpbin.org/post"
-      lang-type="en"
-      @close="close"
-      @crop-upload-success="cropSuccess"
-    />
   </div>
 </template>
 
 <script>
-import ImageCropper from '@/components/ImageCropper'
 import PanThumb from '@/components/PanThumb'
 import { uploadContract, getUrl } from '@/api/diary/diary.js'
 
 import store from '@/store'
 export default {
   name: 'AvatarUploadDemo',
-  components: { ImageCropper, PanThumb },
+  components: { PanThumb },
   data() {
     return {
       uploadUrl: null,
@@ -62,6 +50,7 @@ export default {
     this.getUrls()
   },
   methods: {
+    imagecropperShows() {},
     getUrls() {
       var form = {
         diaryHead: '1'

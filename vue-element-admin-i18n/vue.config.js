@@ -56,7 +56,7 @@ module.exports = {
         }
       },
       '/szacrm-manager-customer': { // 这里是公共部分，在调用接口时后面接不相同的部分，/api就相当于http://192.168.0.199:8926/api这一段
-        target: 'http://localhost:8080',
+        target: 'http://121.41.224.54:8080',
         // target: 'http://192.168.1.14:8304',   //这里写的是访问接口的域名和端口号
         // target: 'http://192.168.1.218:8304',
         changeOrigin: true, // 必须加上这个才能跨域请求
